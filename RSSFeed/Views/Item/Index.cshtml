@@ -1,0 +1,43 @@
+﻿@using PagedList
+@using PagedList.Mvc
+@using RSSFeed.Domain
+@model IEnumerable<RSSFeed.Domain.Item>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+
+
+<div class="container"><h2>مطالب منتخب من</h2>
+    
+    @Html.PagedListPager((IPagedList)Model, page => Url.Action("Index", new { page }))
+    <div class="row">
+
+
+
+        @foreach (var item in Model)
+        {
+            <div class="col-md-11 box2">
+                <img width="50" height="50" src="@item.Channel.Site.SiteUrl/favicon.ico" alt="" class="img-circle boximg">
+                <h4 class="plantop">
+                    @Html.DisplayFor(modelItem => item.Title)
+                </h4>
+                <p>@Html.Raw( item.Description) </p>
+                <ul class="list-inline">
+                    <li><b> تاریخ انتشار: </b> @Html.DisplayFor(modelItem => item.PubDate)</li>
+                    @foreach (var link in item.Links)
+                    {
+                        <li><b>  لینک مطلب: </b><a href="@link.Url">مشاهده</a></li>
+                    }
+                    <li><a href="@Url.Action("Remove","Item",new{id=item.UniqId})" class=" btn btn-danger btn-xs">حذف</a></li>
+                </ul>
+               
+            </div> 
+
+        }
+    </div>
+    @Html.PagedListPager((IPagedList)Model, page => Url.Action("Index", new { page }))
+</div>
+
+

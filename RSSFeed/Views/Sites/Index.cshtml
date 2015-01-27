@@ -1,0 +1,61 @@
+﻿@model IEnumerable<RSSFeed.Domain.Site>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create", new { groupId = ViewBag.groupId})
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @*Check this code not null*@
+
+            @Html.DisplayNameFor(model => model.Group)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.SiteName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.SiteUrl)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.LastVisited)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.IsDeleted)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Group)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.SiteName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.SiteUrl)
+        </td>
+
+        <td>
+            @Html.DisplayFor(modelItem => item.LastVisited)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.IsDeleted)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.Id }) |
+            @Html.ActionLink("Details", "Details", new { id=item.Id }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.Id }) |
+            @Html.ActionLink("RSS List", "Index","Channel", new { id = item.Id },null) 
+        </td>
+    </tr>
+}
+
+</table>

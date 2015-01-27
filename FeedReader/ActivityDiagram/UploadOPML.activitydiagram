@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<activityRootModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/SimpleShapesModel" dslVersion="1.0.0.0" Id="0647a579-b571-4e96-9fd9-51c61b8c9ade" name="UploadOPML" linkedPackageId="5a34147d-0293-4c9a-9e14-a3fd2c0dca9c" xmlns="http://schemas.microsoft.com/VisualStudio/TeamArchitect/ActivityDesigner">
+  <profileInstances>
+    <packageHasProfileInstances Id="06ff0abd-0906-46c3-8afa-819cf9852622">
+      <profileInstance Id="c1b73435-3920-4fba-aaf2-71bd2639b019" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="87184a41-ee6e-4ed8-a37d-969ea843a789">
+      <profileInstance Id="57dc3ff0-5d99-470a-b7b1-93b5570eaeb3" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="721c391d-6889-4fc0-b1b3-cdf03e19f9b6">
+      <profileInstance Id="a4488557-e017-4852-bdd1-2cbf3e7ffee9" name="CSharpProfile">
+        <elementDefinition Id="75b4a769-3332-4695-8768-d9b0c236725e" />
+      </profileInstance>
+      <elementDefinition Id="4e8aa140-4a1b-4921-b52e-e3c1a60363ab" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <activityRootModelHasActivity>
+      <activity Id="aa2618ef-4b03-4817-8447-5d49cf8a32f8" name="UploadOPML" isAbstract="false" isLeaf="false" isActiveClass="false" isReentrant="false" isReadOnly="false" isSingleExecution="false">
+        <elementDefinition Id="e118443b-d558-49eb-a984-4d050ba1bd26" />
+        <nodes>
+          <initialNode Id="e26c50db-3ba4-429d-97f8-9eccd1463061" name="Initial1" isLeaf="false">
+            <elementDefinition Id="bd2fbc39-a0d7-4c4a-9599-036e48e34ffa" />
+            <flowNodeTargets>
+              <controlFlow Id="32bef956-a352-476d-8237-3b8b9fde23aa" isLeaf="false">
+                <opaqueActionMoniker Id="24383b2f-2af7-4a31-85c8-18977544f8a8" LastKnownName="کاربر فرم ارسال فایل را در خواست می دهد" />
+                <elementDefinition Id="2543af75-6145-461f-9b2e-ab0cf3b6873a" />
+              </controlFlow>
+            </flowNodeTargets>
+          </initialNode>
+          <opaqueAction Id="24383b2f-2af7-4a31-85c8-18977544f8a8" name="کاربر فرم ارسال فایل را در خواست می دهد" isLeaf="false">
+            <elementDefinition Id="833cebc4-12fb-47de-8e71-2e07fd8377c7" />
+            <flowNodeTargets>
+              <controlFlow Id="56b41334-2101-4117-9270-f554676bda26" isLeaf="false">
+                <opaqueActionMoniker Id="2f161c9b-d4a8-4f95-bc27-f4de1b0a2a58" LastKnownName="کاربر فایل خود را وارد می کند" />
+                <elementDefinition Id="90e20cba-f9d2-4c25-8414-6ef7ebfc9173" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction Id="2f161c9b-d4a8-4f95-bc27-f4de1b0a2a58" name="کاربر فایل خود را وارد می کند" isLeaf="false">
+            <elementDefinition Id="c6bc99ed-e152-44b7-bb84-26dedbd4de71" />
+            <flowNodeTargets>
+              <controlFlow Id="455e64a0-fde3-473c-82f5-4870d734eeef" isLeaf="false">
+                <opaqueActionMoniker Id="45bc73ab-5875-420e-9a55-404065e61d25" LastKnownName="سیستم صحت اطلاعات کاربر را بررسی می کند" />
+                <elementDefinition Id="4f64fb13-75e9-436f-8ff4-f01275f394e2" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction Id="45bc73ab-5875-420e-9a55-404065e61d25" name="سیستم صحت اطلاعات کاربر را بررسی می کند" isLeaf="false">
+            <elementDefinition Id="c3250a6b-c2b8-4a62-973d-7da0e345a55e" />
+            <flowNodeTargets>
+              <controlFlow Id="61e00493-2cbb-4d78-9368-d888620d9cf4" isLeaf="false">
+                <opaqueActionMoniker Id="013c31ef-8ad1-4c41-b4f5-95a4a4dcc31c" LastKnownName="سیستم فایل را خوانده و آن را وارد بانک می کند" />
+                <elementDefinition Id="1260427d-4aa6-4db3-bb51-a0b8ebde143d" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction Id="013c31ef-8ad1-4c41-b4f5-95a4a4dcc31c" name="سیستم فایل را خوانده و آن را وارد بانک می کند" isLeaf="false">
+            <elementDefinition Id="76ab2a94-629a-40ab-97cc-955f151218ca" />
+            <flowNodeTargets>
+              <controlFlow Id="1e1b84e4-a4b6-4066-aabc-1a6fee3050b7" isLeaf="false">
+                <opaqueActionMoniker Id="1d5e8221-6719-4273-afa0-0b6d22510c47" LastKnownName="سیستم پیغام اتمام عملیات بارگذاری را به کاربر نمایش می دهد" />
+                <elementDefinition Id="09a997fe-b8e0-49c7-abed-14ecc591ec24" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction Id="1d5e8221-6719-4273-afa0-0b6d22510c47" name="سیستم پیغام اتمام عملیات بارگذاری را به کاربر نمایش می دهد" isLeaf="false">
+            <elementDefinition Id="d150bfde-ed42-471c-abfb-d562721b6a4b" />
+            <flowNodeTargets>
+              <controlFlow Id="6c6fc37a-8a34-42a6-85e8-49c4b988d4bc" isLeaf="false">
+                <activityFinalNodeMoniker Id="bf46a097-fbad-430b-b0a6-495f93e4b20f" LastKnownName="ActivityFinal1" />
+                <elementDefinition Id="63fe7111-a9de-4b29-afe3-d93bbf42ed22" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <activityFinalNode Id="bf46a097-fbad-430b-b0a6-495f93e4b20f" name="ActivityFinal1" isLeaf="false">
+            <elementDefinition Id="2fc44c15-7bcc-4e12-a595-dd5b84d19d1f" />
+          </activityFinalNode>
+        </nodes>
+      </activity>
+    </activityRootModelHasActivity>
+  </packagedElements>
+  <package Id="5a34147d-0293-4c9a-9e14-a3fd2c0dca9c" name="FeedReader">
+    <elementDefinition Id="53a40116-cfad-4337-9abb-53b36ed80249" />
+  </package>
+</activityRootModel>

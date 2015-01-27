@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<activityRootModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/SimpleShapesModel" dslVersion="1.0.0.0" Id="5eefb839-e8f8-424d-9f94-94e05d7dd4c6" name="FavoriteFeeds" linkedPackageId="ae918bb5-5fa8-42a5-8116-7556272c4c13" xmlns="http://schemas.microsoft.com/VisualStudio/TeamArchitect/ActivityDesigner">
+  <profileInstances>
+    <packageHasProfileInstances Id="482f2815-cb5d-44cc-9f06-e76b976c8cf5">
+      <profileInstance Id="b1b2614c-e2f8-429b-9dee-b3114876dc80" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="2c7bb673-88be-4e3b-a5f6-ddf6e37ee0ef">
+      <profileInstance Id="2c4a79bd-b56b-4e5a-9b3f-fd9c3785ac8a" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="1049a42e-988b-4d1d-bd55-97fa6089fcf3">
+      <profileInstance Id="16cceeee-9f55-468c-8b52-d687bbbf487c" name="CSharpProfile">
+        <elementDefinition Id="75b4a769-3332-4695-8768-d9b0c236725e" />
+      </profileInstance>
+      <elementDefinition Id="4e8aa140-4a1b-4921-b52e-e3c1a60363ab" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <activityRootModelHasActivity>
+      <activity Id="c9e8d5cf-f376-4ac2-a52b-2a1849727a45" name="FavoriteFeeds" isAbstract="false" isLeaf="false" isActiveClass="false" isReentrant="false" isReadOnly="false" isSingleExecution="false">
+        <elementDefinition Id="a708c364-d983-46a1-a9c8-798f93676230" />
+        <nodes>
+          <initialNode Id="223568fb-60ee-4029-a4f1-adc5498bc386" name="Initial1" isLeaf="false">
+            <elementDefinition Id="fe2d2541-64b0-43a5-9ef6-b3a8ead49fec" />
+            <flowNodeTargets>
+              <controlFlow Id="3ffa14d9-8785-494e-921a-0d5772e8f9fa" isLeaf="false">
+                <opaqueActionMoniker Id="0e69bc6a-c6bd-4bbc-b659-59a9ed509987" LastKnownName="کاربر فرم اخبار را در خواست می دهد" />
+                <elementDefinition Id="d73c0f2e-e6cc-4b54-a05b-19245494d5f0" />
+              </controlFlow>
+            </flowNodeTargets>
+          </initialNode>
+          <opaqueAction Id="0e69bc6a-c6bd-4bbc-b659-59a9ed509987" name="کاربر فرم اخبار را در خواست می دهد" isLeaf="false">
+            <elementDefinition Id="79e83f54-6d7e-4fdd-b137-c10705e0cc49" />
+            <flowNodeTargets>
+              <controlFlow Id="b35fa775-e00c-4135-929a-4e5d1db55a45" isLeaf="false">
+                <opaqueActionMoniker Id="c21dba98-6554-4537-8449-baedb7f51f6c" LastKnownName="سیستم فرم را نمایش میدهد" />
+                <elementDefinition Id="2a7575d0-ecff-439b-8686-0496b018a48b" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction Id="246720aa-547d-468c-bb34-0002102978ac" name="کاربر خبر مورد نظر را انتخاب می کند" isLeaf="false">
+            <elementDefinition Id="c856b773-924d-4702-93df-0949a45807db" />
+            <flowNodeTargets>
+              <controlFlow Id="6361a57a-7650-4a32-bf69-bb104e2c0658" isLeaf="false">
+                <opaqueActionMoniker Id="19660beb-3cba-4bee-a38d-541f4b263ee0" LastKnownName="سیستم خبر انتخاب شده را در لیست علاقه مندی ها ثبت می کند" />
+                <elementDefinition Id="2d3f0078-e7c0-4577-9bbd-305b956e47a2" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction Id="c21dba98-6554-4537-8449-baedb7f51f6c" name="سیستم فرم را نمایش میدهد" isLeaf="false">
+            <elementDefinition Id="2e09fe08-f3aa-41e6-a2e6-a552f4a7c3a3" />
+            <flowNodeTargets>
+              <controlFlow Id="5ef2a9b6-6730-447d-b2fe-a2d077676a99" isLeaf="false">
+                <opaqueActionMoniker Id="246720aa-547d-468c-bb34-0002102978ac" LastKnownName="کاربر خبر مورد نظر را انتخاب می کند" />
+                <elementDefinition Id="a6d0ffff-5f25-4c90-852e-2efc4a93c080" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction Id="19660beb-3cba-4bee-a38d-541f4b263ee0" name="سیستم خبر انتخاب شده را در لیست علاقه مندی ها ثبت می کند" isLeaf="false">
+            <elementDefinition Id="93839d89-53a9-4a40-8595-4653b1beac2e" />
+            <flowNodeTargets>
+              <controlFlow Id="0c348c6f-c9e6-4c62-b2ee-5dad62b38850" isLeaf="false">
+                <opaqueActionMoniker Id="8dfdf88a-218f-42e2-bb3e-c4f153239c79" LastKnownName="سیستم پیغام ثبت را نمایش می دهد" />
+                <elementDefinition Id="fcf7977a-72e5-4be3-ac01-18aa4f06c595" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction Id="8dfdf88a-218f-42e2-bb3e-c4f153239c79" name="سیستم پیغام ثبت را نمایش می دهد" isLeaf="false">
+            <elementDefinition Id="e746df43-2c6b-4b5b-b68f-563daecd2cf7" />
+            <flowNodeTargets>
+              <controlFlow Id="e4001293-3385-4d7d-855b-a87834639c44" isLeaf="false">
+                <activityFinalNodeMoniker Id="472a3842-2241-468a-8862-0c570dd4ecc7" LastKnownName="ActivityFinal1" />
+                <elementDefinition Id="dc889640-93f5-4b6c-837d-601371a3d76c" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <activityFinalNode Id="472a3842-2241-468a-8862-0c570dd4ecc7" name="ActivityFinal1" isLeaf="false">
+            <elementDefinition Id="183f0f41-8469-4a51-9302-65b27d46287c" />
+          </activityFinalNode>
+        </nodes>
+      </activity>
+    </activityRootModelHasActivity>
+  </packagedElements>
+  <package Id="ae918bb5-5fa8-42a5-8116-7556272c4c13" name="FeedReader">
+    <elementDefinition Id="53a40116-cfad-4337-9abb-53b36ed80249" />
+  </package>
+</activityRootModel>

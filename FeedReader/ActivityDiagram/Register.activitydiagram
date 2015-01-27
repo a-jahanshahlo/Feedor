@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<activityRootModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/SimpleShapesModel" dslVersion="1.0.0.0" Id="8480f964-d9bc-4542-bda3-18ee48ce3331" name="Register" linkedPackageId="615fad98-e076-42b2-94b4-cdd4f9946e3f" xmlns="http://schemas.microsoft.com/VisualStudio/TeamArchitect/ActivityDesigner">
+  <packagedElements>
+    <activityRootModelHasActivity>
+      <activity Id="9a4c4f93-4846-4ea7-bc33-097be3451be9" name="Register" isAbstract="false" isLeaf="false" isActiveClass="false" isReentrant="false" isReadOnly="false" isSingleExecution="false">
+        <elementDefinition Id="bde4c965-437b-4d8b-9a67-c1e1193fccac" />
+        <nodes>
+          <initialNode Id="ae7f176f-259c-4fc6-a9a7-9b85951f69d9" name="Initial1" isLeaf="false">
+            <elementDefinition Id="c08920aa-3ddc-4281-b4bc-347e38f93593" />
+            <flowNodeTargets>
+              <controlFlow Id="f037e14d-cc2b-47ed-8902-fff2ac9b13e1" isLeaf="false">
+                <opaqueActionMoniker Id="82a1196e-9be0-45f7-9eb4-30a8493a44d5" LastKnownName="کاربر فرم ثبت نام را در خواست می دهد" />
+                <elementDefinition Id="d44250a2-71f7-419a-807d-a8a69cd1869b" />
+              </controlFlow>
+            </flowNodeTargets>
+          </initialNode>
+          <opaqueAction Id="82a1196e-9be0-45f7-9eb4-30a8493a44d5" name="کاربر فرم ثبت نام را در خواست می دهد" isLeaf="false">
+            <elementDefinition Id="d729d624-faec-42c9-ba35-de4ecc119d6f" />
+            <flowNodeTargets>
+              <controlFlow Id="15c87752-27cc-4fe1-8464-e01b01c2f5d6" isLeaf="false">
+                <opaqueActionMoniker Id="35dd4e17-6ed5-49a5-9511-7e84c778a20d" LastKnownName="سیستم فرم را نمایش میدهد" />
+                <elementDefinition Id="cd648e78-67de-4068-9894-0d8a6912cb4c" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction Id="901b351d-2353-4114-8430-8ddf28c4d364" name="کاربر اطلاعات کاربری خود را وارد می کند" isLeaf="false">
+            <elementDefinition Id="bad419e7-d42c-48b5-8791-54d8b58d5f32" />
+            <flowNodeTargets>
+              <controlFlow Id="f0495b1f-c920-40e4-b574-26fc791eb5b0" isLeaf="false">
+                <opaqueActionMoniker Id="61709dc1-d6d5-4290-9e36-c2dff05ba517" LastKnownName="سیستم صحت اطلاعات کاربر را بررسی می کند" />
+                <elementDefinition Id="3ef9472d-ed1d-489b-add1-af77273d8ce9" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction Id="35dd4e17-6ed5-49a5-9511-7e84c778a20d" name="سیستم فرم را نمایش میدهد" isLeaf="false">
+            <elementDefinition Id="923a687d-31e6-4648-9b66-8b9a56428e20" />
+            <flowNodeTargets>
+              <controlFlow Id="b09ded47-1d39-4d21-be75-f17e016177ee" isLeaf="false">
+                <opaqueActionMoniker Id="901b351d-2353-4114-8430-8ddf28c4d364" LastKnownName="کاربر اطلاعات کاربری خود را وارد می کند" />
+                <elementDefinition Id="5ecb147b-8238-4b68-be51-a3393d04e7a4" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction Id="61709dc1-d6d5-4290-9e36-c2dff05ba517" name="سیستم صحت اطلاعات کاربر را بررسی می کند" isLeaf="false">
+            <elementDefinition Id="9200721d-66c8-4acd-a8af-51e1c4163f02" />
+            <flowNodeTargets>
+              <controlFlow Id="fe8a1ad5-2c75-4f36-9cf5-2cad5935b005" isLeaf="false">
+                <opaqueActionMoniker Id="10279659-932a-4262-81c9-da64467f71b7" LastKnownName="اجازه دسترسی به کاربر داده می شود" />
+                <elementDefinition Id="d1aefd16-42d6-4918-9f21-7638b05eb62b" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction Id="10279659-932a-4262-81c9-da64467f71b7" name="اجازه دسترسی به کاربر داده می شود" isLeaf="false">
+            <elementDefinition Id="a5082f66-186d-4e88-9502-a4f973ad99f5" />
+            <flowNodeTargets>
+              <controlFlow Id="6e0751a8-a485-400b-8e46-00e3f9f335d2" isLeaf="false">
+                <opaqueActionMoniker Id="77f2d4a8-5311-495c-a627-6da69f46cfd5" LastKnownName="کاربر به صفحه اصلی منتقل می شود" />
+                <elementDefinition Id="6e541d04-a0b4-47a6-9082-55cbcb7dce7e" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction Id="77f2d4a8-5311-495c-a627-6da69f46cfd5" name="کاربر به صفحه اصلی منتقل می شود" isLeaf="false">
+            <elementDefinition Id="26ce7d53-1378-49a9-9fdc-d85b24bf96d0" />
+            <flowNodeTargets>
+              <controlFlow Id="eb912075-cd71-479f-9f42-bfd19215029c" isLeaf="false">
+                <activityFinalNodeMoniker Id="8d7a76c5-1983-447e-be6d-77e67663a7a5" LastKnownName="ActivityFinal1" />
+                <elementDefinition Id="28027fec-9cd3-4190-b645-601aadc27b70" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <activityFinalNode Id="8d7a76c5-1983-447e-be6d-77e67663a7a5" name="ActivityFinal1" isLeaf="false">
+            <elementDefinition Id="7737deac-24d5-40ea-b6aa-bfc61698b2c1" />
+          </activityFinalNode>
+        </nodes>
+      </activity>
+    </activityRootModelHasActivity>
+  </packagedElements>
+  <package Id="615fad98-e076-42b2-94b4-cdd4f9946e3f" name="FeedReader">
+    <elementDefinition Id="53a40116-cfad-4337-9abb-53b36ed80249" />
+    <profileInstances>
+      <packageHasProfileInstances Id="b69cbdb3-9342-44e6-bd69-4225c2846a7a">
+        <profileInstance Id="67c506c3-a6a4-4567-85cb-2665c7ed227c" name="StandardProfileL2">
+          <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+        </profileInstance>
+        <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="cb09e13e-36f2-4fa7-af28-0280220cf9ba">
+        <profileInstance Id="3f7e0b3c-45eb-46be-9620-2a2e251e6f44" name="StandardProfileL3">
+          <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+        </profileInstance>
+        <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="adf3c54b-fb14-49cd-8994-922107b6ba4a">
+        <profileInstance Id="7f7fb82a-56fe-43d7-a861-e880e329726f" name="CSharpProfile">
+          <elementDefinition Id="75b4a769-3332-4695-8768-d9b0c236725e" />
+        </profileInstance>
+        <elementDefinition Id="4e8aa140-4a1b-4921-b52e-e3c1a60363ab" />
+      </packageHasProfileInstances>
+    </profileInstances>
+  </package>
+</activityRootModel>

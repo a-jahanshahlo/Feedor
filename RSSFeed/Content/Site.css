@@ -1,0 +1,107 @@
+﻿@font-face {
+  font-family: 'Awesome';
+
+  src: url('../fonts/fontawesome-webfont.eot');
+  src: url('../fonts/fontawesome-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/fontawesome-webfont.woff') format('woff'), url('../fonts/fontawesome-webfont.ttf') format('truetype'), url('../fonts/fontawesome-webfont.svg#glyphicons_halflingsregular') format('svg');
+}
+body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    font-family: tahoma;
+}
+/* overwrite this class */
+.container-full {
+  margin: 0 auto;
+  width: 100%;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+/* styles for validation helpers */
+.field-validation-error {
+    color: #b94a48;
+}
+
+.field-validation-valid {
+    display: none;
+}
+
+input.input-validation-error {
+    border: 1px solid #b94a48;
+}
+
+input[type="checkbox"].input-validation-error {
+    border: 0 none;
+}
+
+.validation-summary-errors {
+    color: #b94a48;
+}
+
+.validation-summary-valid {
+    display: none;
+}
+
+/*===========================Custom style===============================*/
+.vcenter {
+  display:table-cell;
+    vertical-align:middle;
+    float:none;
+}
+.box2 {
+
+    text-align: justify;
+    padding: 0px 20px 20px;
+    margin: 10px;
+    box-shadow: 0px 0px 5px #CECECE;
+    border: 1px solid #C9C9C9;
+    border-radius: 5px;
+}
+.boximg {
+    background-color: white;
+    text-align: justify;
+    position: relative;
+    margin: 10px;
+    box-shadow: 0px 0px 5px #CECECE;
+    border: 1px solid #C9C9C9;
+       left:-55px;
+    float: left;padding: 2px;
+}
+.plantop {
+border-bottom: thin dashed black;
+padding: 10px 0px 10px 0px;
+}
+.split {
+border-right: thick solid #3f9ca0;
+
+}
+    .btn-file {
+    position: relative;
+    overflow: hidden;
+    }
+    .btn-file input[type=file] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    font-size: 100px;
+    text-align: right;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    outline: none;
+    background: white;
+    cursor: inherit;
+    display: block;
+    }

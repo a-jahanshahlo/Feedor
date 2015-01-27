@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<useCaseModelRoot xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/LogicalClassDesigner" xmlns:dm10="http://schemas.microsoft.com/VisualStudio/TeamArchitect/SequenceDesigner" xmlns:dm11="http://schemas.microsoft.com/dsltools/SimpleShapesModel" xmlns:dm12="http://schemas.microsoft.com/VisualStudio/TeamArchitect/ActivityDesigner" xmlns:dm13="http://schemas.microsoft.com/VisualStudio/TeamArchitect/ComponentDesigner" dslVersion="1.0.0.0" Id="c2fc0cc0-0d9f-4ff5-9c13-d5bac8a5429c" name="LoginDiagram" linkedPackageId="3cecbb52-8a05-4c80-a059-17adaf8e2ff7" xmlns="http://schemas.microsoft.com/dsltools/UseCaseModel">
+  <profileInstances>
+    <packageHasProfileInstances Id="a750c479-d79e-4edf-a0b1-1ab35628756a">
+      <profileInstance Id="54354469-3d8b-47ab-90f2-94bd83ffb541" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="c24eecca-8cae-4733-bce1-da3570fb2728">
+      <profileInstance Id="81bd0ada-3fed-4587-93b2-a30449ff6aaf" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="3f658183-ec42-4b0a-8ecd-6580bb8d1b05">
+      <profileInstance Id="e9a24ab1-3b56-4035-baea-eab5a5ca0e84" name="CSharpProfile">
+        <elementDefinition Id="75b4a769-3332-4695-8768-d9b0c236725e" />
+      </profileInstance>
+      <elementDefinition Id="4e8aa140-4a1b-4921-b52e-e3c1a60363ab" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <package Id="3cecbb52-8a05-4c80-a059-17adaf8e2ff7" name="FeedReader">
+    <elementDefinition Id="53a40116-cfad-4337-9abb-53b36ed80249" />
+  </package>
+</useCaseModelRoot>

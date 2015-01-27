@@ -1,0 +1,13 @@
+C:\Users\Mahyar\documents\visual studio 2013\Projects\RSSFeed\RSSFeed.Domain\bin\Debug\RSSFeed.Domain.dll
+C:\Users\Mahyar\documents\visual studio 2013\Projects\RSSFeed\RSSFeed.Domain\bin\Debug\RSSFeed.Domain.pdb
+C:\Users\Mahyar\documents\visual studio 2013\Projects\RSSFeed\RSSFeed.Domain\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Mahyar\documents\visual studio 2013\Projects\RSSFeed\RSSFeed.Domain\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Mahyar\documents\visual studio 2013\Projects\RSSFeed\RSSFeed.Domain\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Mahyar\documents\visual studio 2013\Projects\RSSFeed\RSSFeed.Domain\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Mahyar\documents\visual studio 2013\Projects\RSSFeed\RSSFeed.Domain\obj\Debug\RSSFeed.Domain.dll
+C:\Users\Mahyar\documents\visual studio 2013\Projects\RSSFeed\RSSFeed.Domain\obj\Debug\RSSFeed.Domain.pdb
+C:\Users\Mahyar\documents\visual studio 2013\Projects\RSSFeed\RSSFeed.Domain\obj\Debug\RSSFeed.Domain.csprojResolveAssemblyReference.cache
+C:\Users\Mahyar\documents\visual studio 2013\Projects\RSSFeed\RSSFeed.Domain\bin\Debug\EntityFramework.dll
+C:\Users\Mahyar\documents\visual studio 2013\Projects\RSSFeed\RSSFeed.Domain\bin\Debug\EntityFramework.xml
+C:\Users\Mahyar\documents\visual studio 2013\Projects\RSSFeed\RSSFeed.Domain\bin\Debug\System.Web.Mvc.dll
+C:\Users\Mahyar\documents\visual studio 2013\Projects\RSSFeed\RSSFeed.Domain\bin\Debug\System.Web.Mvc.xml

@@ -1,0 +1,2328 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modelStoreModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/SimpleShapesModel" xmlns:dm9="http://schemas.microsoft.com/VisualStudio/TeamArchitect/ActivityDesigner"
+  dslVersion="1.0.0.0"
+  Id="53a40116-cfad-4337-9abb-53b36ed80249"
+  name="FeedReader" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <profileInstances>
+    <packageHasProfileInstances
+      Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b">
+      <profileInstance
+        Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791"
+        name="StandardProfileL2" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances
+      Id="29349502-908c-4fda-9054-c48619c59ed0">
+      <profileInstance
+        Id="532ea607-fb19-44b8-8502-3351b05452be"
+        name="StandardProfileL3" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances
+      Id="4e8aa140-4a1b-4921-b52e-e3c1a60363ab">
+      <profileInstance
+        Id="75b4a769-3332-4695-8768-d9b0c236725e"
+        name="CSharpProfile" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <packageHasNamedElement>
+      <actor
+        Id="72ad4ffe-f29d-492a-9790-715d4a7cd835"
+        name="Actor1"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <artifact
+        Id="b88a0cfd-dfd6-4688-a133-6889651899f0"
+        name="filecontroller.cs"
+        isAbstract="false"
+        isLeaf="false"
+        fileName="rssfeed\controllers\filecontroller.cs" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <artifact
+        Id="3007b835-be6f-4fa5-85c6-6032509d355a"
+        name="RSSFeed.WebUI.csproj"
+        isAbstract="false"
+        isLeaf="false"
+        fileName="RSSFeed\RSSFeed.WebUI.csproj" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <artifact
+        Id="6381ea4e-1120-42b5-a16b-32e139e5160a"
+        isAbstract="false"
+        isLeaf="false"
+        fileName="rssfeed\actionresults\" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="0d845015-0c9d-4aee-8a00-003db241cb00"
+        LastKnownName="RSSFeed"
+        LastKnownLocation="Package_1819.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="fdf13f3e-b6cc-4cac-92fe-eadcba802fd0"
+        LastKnownName="System"
+        LastKnownLocation="Package2_1819.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="5dedca2e-2d23-4ea5-aa7d-072c78db6d34"
+        LastKnownName="Microsoft"
+        LastKnownLocation="Package5_1819.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="c6a7ffdb-b5ba-4489-9eb5-0b763c482dd6"
+        LastKnownName="HtmlAgilityPack"
+        LastKnownLocation="Package10_1838.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <actor
+        Id="03b84d3b-030d-4034-937e-a227224e56aa"
+        name="User"
+        isAbstract="false"
+        isLeaf="false">
+        <targetEnds>
+          <association
+            Id="8436e16f-f4eb-4da7-91b7-443e4e4913f1"
+            isDerived="false"
+            sourceEndRoleName="User"
+            targetEndRoleName="Manage Account"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="9c57476e-bcd6-4407-93eb-dedcf552ae73"
+              LastKnownName="Manage Account"
+              LastKnownLocation="FeedReader.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="fccc850e-e436-411b-a28e-92b94a11e327"
+                  name="User"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="e061bfb7-34bb-4a9b-90f0-88d28842bbf7"
+                  name="Manage Account"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="1341556a-4e87-4b12-8592-fcb002e76e1b"
+            isDerived="false"
+            sourceEndRoleName="User"
+            targetEndRoleName="Upload OPMLl"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="45db503b-ae01-4397-a80d-e4ccd2a420c6"
+              LastKnownName="Upload OPML"
+              LastKnownLocation="FeedReader.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="701519dd-37eb-43b9-8eeb-01b6adde51e3"
+                  name="User"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="7e7a4c76-fd3f-4d1e-806f-4ac1b43ff034"
+                  name="Upload OPMLl"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="bea2ff55-baf2-4320-a545-30c7f013ad08"
+            isDerived="false"
+            sourceEndRoleName="User"
+            targetEndRoleName="Download OPML"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="6056c88c-7fed-4802-a7e0-d0171bdd4bb7"
+              LastKnownName="Download OPML"
+              LastKnownLocation="FeedReader.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="99b1bbaf-7624-46fd-9648-73980685436e"
+                  name="User"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="125b3c66-5718-4aba-afed-187105ab388b"
+                  name="Download OPML"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="81a3bd67-e184-470d-95a1-146b2ac9511e"
+            isDerived="false"
+            sourceEndRoleName="User"
+            targetEndRoleName="Manage Feeds"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="82278993-7d52-49e0-97b3-ef9f9750ade0"
+              LastKnownName="Manage Feeds"
+              LastKnownLocation="FeedReader.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="200f03cf-d43f-4d47-84f0-18a827c2e0b9"
+                  name="User"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="26fc4d29-3197-4607-a398-ee94a3fe31e7"
+                  name="Manage Feeds"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="3509ee83-c3a3-4106-973d-5f80ac4b15b5"
+            isDerived="false"
+            sourceEndRoleName="User"
+            targetEndRoleName="Favorite Feeds"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="9058d171-cf6b-4b6a-9ebf-4c17d162d1ad"
+              LastKnownName="Manage Favorites "
+              LastKnownLocation="FeedReader.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="b032ef39-cda5-4936-a326-d2a2420c607c"
+                  name="User"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="60c1c409-75fa-4fb3-89ed-ef943944cc2b"
+                  name="Favorite Feeds"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="ea035618-5743-4814-b4e2-44d300227b26"
+            isDerived="false"
+            sourceEndRoleName="User"
+            targetEndRoleName="Show Feeds"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="f0ed67a6-3442-4303-8823-8ca5ac8275cf"
+              LastKnownName="Browse Feeds"
+              LastKnownLocation="FeedReader.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="16db61c8-04f4-4c24-b0d9-c80a660654e1"
+                  name="User"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="211487df-0942-4850-b044-214a7b7fa6a8"
+                  name="Show Feeds"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </actor>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="58c6eb85-c900-4fad-adf9-e566d885e8a8"
+        name="Login"
+        isAbstract="false"
+        isLeaf="false">
+        <extendedCases>
+          <extend
+            Id="c97d9643-25eb-46ab-8581-c5ba4271f4b2">
+            <useCaseMoniker
+              Id="c486e82d-f1e3-48fa-9b54-be6396a2bed1"
+              LastKnownName="External Service"
+              LastKnownLocation="FeedReader.uml" />
+          </extend>
+        </extendedCases>
+        <additions>
+          <include
+            Id="29764c74-ee61-4d8d-86b1-f79f14ab679b">
+            <useCaseMoniker
+              Id="9c57476e-bcd6-4407-93eb-dedcf552ae73"
+              LastKnownName="Manage Account"
+              LastKnownLocation="FeedReader.uml" />
+          </include>
+        </additions>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="9c57476e-bcd6-4407-93eb-dedcf552ae73"
+        name="Manage Account"
+        isAbstract="false"
+        isLeaf="false">
+        <extendedCases>
+          <extend
+            Id="79f932a0-4839-4b41-b17b-4a9b5cfbb548">
+            <useCaseMoniker
+              Id="6c142790-7a09-4bc5-957f-43fdf61dc798"
+              LastKnownName="Reset Password"
+              LastKnownLocation="FeedReader.uml" />
+          </extend>
+          <extend
+            Id="59a91960-3cfc-4eba-8d60-2cecc12b51be">
+            <useCaseMoniker
+              Id="9025b6d8-3d90-49ab-8216-7764f93a11b8"
+              LastKnownName="LogOut"
+              LastKnownLocation="FeedReader.uml" />
+          </extend>
+        </extendedCases>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="76ce46bb-1d24-4768-a509-452db6da03ab"
+        name="Add Feed"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="ab568011-d90c-4324-a638-128f11faf8da"
+        name="Show Exist Feeds List"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="45db503b-ae01-4397-a80d-e4ccd2a420c6"
+        name="Upload OPML"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="6056c88c-7fed-4802-a7e0-d0171bdd4bb7"
+        name="Download OPML"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="b75b73e8-90a5-4271-96b5-a241ee946f90"
+        name="Delete Feed"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="82278993-7d52-49e0-97b3-ef9f9750ade0"
+        name="Manage Feeds"
+        isAbstract="false"
+        isLeaf="false">
+        <extendedCases>
+          <extend
+            Id="9eeec97f-5928-4a58-9a1b-d2794da94b79">
+            <useCaseMoniker
+              Id="b75b73e8-90a5-4271-96b5-a241ee946f90"
+              LastKnownName="Delete Feed"
+              LastKnownLocation="FeedReader.uml" />
+          </extend>
+          <extend
+            Id="bc7bd988-e834-4096-807f-24c9f877bacc">
+            <useCaseMoniker
+              Id="76ce46bb-1d24-4768-a509-452db6da03ab"
+              LastKnownName="Add Feed"
+              LastKnownLocation="FeedReader.uml" />
+          </extend>
+          <extend
+            Id="cfc83ad8-9c00-4373-afcc-747978f62b74">
+            <useCaseMoniker
+              Id="ab568011-d90c-4324-a638-128f11faf8da"
+              LastKnownName="Show Exist Feeds List"
+              LastKnownLocation="FeedReader.uml" />
+          </extend>
+        </extendedCases>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <actor
+        Id="ec3ff668-50f4-42dd-a561-d9f3942fba93"
+        name="Actor2"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="173a6363-b334-4abb-b583-7db5c7a37f87"
+        name="Register"
+        isAbstract="false"
+        isLeaf="false">
+        <extendedCases>
+          <extend
+            Id="747957e7-a97b-4df7-9f13-4f0071496e1c">
+            <useCaseMoniker
+              Id="c486e82d-f1e3-48fa-9b54-be6396a2bed1"
+              LastKnownName="External Service"
+              LastKnownLocation="FeedReader.uml" />
+          </extend>
+        </extendedCases>
+        <additions>
+          <include
+            Id="bbd37cb8-4e5f-49cb-8836-9953c68896bf">
+            <useCaseMoniker
+              Id="9c57476e-bcd6-4407-93eb-dedcf552ae73"
+              LastKnownName="Manage Account"
+              LastKnownLocation="FeedReader.uml" />
+          </include>
+        </additions>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="6c142790-7a09-4bc5-957f-43fdf61dc798"
+        name="Reset Password"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="9025b6d8-3d90-49ab-8216-7764f93a11b8"
+        name="LogOut"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="9058d171-cf6b-4b6a-9ebf-4c17d162d1ad"
+        name="Manage Favorites "
+        isAbstract="false"
+        isLeaf="false">
+        <extendedCases>
+          <extend
+            Id="8508be5a-18c7-4d2a-83f1-3f163e7841ac">
+            <useCaseMoniker
+              Id="ae86ef92-cba4-4460-b30c-3a5a2cdc5540"
+              LastKnownName="Add To Favorites"
+              LastKnownLocation="FeedReader.uml" />
+          </extend>
+          <extend
+            Id="ee76b540-63a6-46b0-a451-39fc71cfb387">
+            <useCaseMoniker
+              Id="1401a817-515d-4419-9f9d-0ad2bf53c275"
+              LastKnownName="Delete From Favorites"
+              LastKnownLocation="FeedReader.uml" />
+          </extend>
+          <extend
+            Id="baf5eb27-d303-414f-a20f-65cc3f6777ff">
+            <useCaseMoniker
+              Id="c54717b3-4c5a-4f4f-bad4-16ae6921e71b"
+              LastKnownName="Show Favorites"
+              LastKnownLocation="FeedReader.uml" />
+          </extend>
+        </extendedCases>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="ae86ef92-cba4-4460-b30c-3a5a2cdc5540"
+        name="Add To Favorites"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="c54717b3-4c5a-4f4f-bad4-16ae6921e71b"
+        name="Show Favorites"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="1401a817-515d-4419-9f9d-0ad2bf53c275"
+        name="Delete From Favorites"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="f0ed67a6-3442-4303-8823-8ca5ac8275cf"
+        name="Browse Feeds"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="29f1b808-8be5-41b2-a701-21c32cf34980"
+        name="Faceboock"
+        isAbstract="false"
+        isLeaf="false">
+        <generalsInternal>
+          <generalization
+            Id="2c3ca146-3dab-4fa0-abf1-0dbe2e0c9e5d"
+            isSubstitutable="false">
+            <useCaseMoniker
+              Id="c486e82d-f1e3-48fa-9b54-be6396a2bed1"
+              LastKnownName="External Service"
+              LastKnownLocation="FeedReader.uml" />
+          </generalization>
+        </generalsInternal>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="1f5f9f2c-d941-4b74-a1c9-98270b4df04c"
+        name="Google"
+        isAbstract="false"
+        isLeaf="false">
+        <generalsInternal>
+          <generalization
+            Id="5a0db2c6-00fc-420e-98a7-e94184322f2a"
+            isSubstitutable="false">
+            <useCaseMoniker
+              Id="c486e82d-f1e3-48fa-9b54-be6396a2bed1"
+              LastKnownName="External Service"
+              LastKnownLocation="FeedReader.uml" />
+          </generalization>
+        </generalsInternal>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="1f6dde07-0df2-433f-914a-e3edf9dd54bc"
+        name="Hotmail"
+        isAbstract="false"
+        isLeaf="false">
+        <generalsInternal>
+          <generalization
+            Id="fc8145e5-79fc-4594-911a-a636001e144c"
+            isSubstitutable="false">
+            <useCaseMoniker
+              Id="c486e82d-f1e3-48fa-9b54-be6396a2bed1"
+              LastKnownName="External Service"
+              LastKnownLocation="FeedReader.uml" />
+          </generalization>
+        </generalsInternal>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="c486e82d-f1e3-48fa-9b54-be6396a2bed1"
+        name="External Service"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <component
+        Id="155cf42a-60af-4e2e-a04f-bb090eb47b87"
+        name="DBMS MS SQL"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <ownedAttributesInternal>
+          <providedInterface
+            Id="4e0904c1-8b88-4efe-8693-d81d39ebb886"
+            name="Port2"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false"
+            isService="false"
+            isBehavior="false">
+            <type_NamedElement>
+              <interfaceMoniker
+                Id="64d3fdad-2de5-4637-bfb7-e837ae75e6e3"
+                LastKnownName="TCP"
+                LastKnownLocation="FeedReader.uml" />
+            </type_NamedElement>
+          </providedInterface>
+        </ownedAttributesInternal>
+      </component>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <component
+        Id="090688a4-6fc1-444e-943d-3ba9197477be"
+        name="Component2"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <Interface
+        Id="e220fe58-3751-4e1a-9cd7-e5066fdaf57a"
+        name="Interface1"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <Interface
+        Id="f633bb7d-a0d8-420d-b6e7-070180ba6c6e"
+        name="Interface2"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <component
+        Id="e1239f2e-7ff1-4ff3-b40a-cd445b745ed6"
+        name="WEBUI"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <ownedAttributesInternal>
+          <part
+            Id="d7a6ea2d-31e8-42d2-a508-7e8a508a615e"
+            name="Service"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="Composite"
+            isComposite="true">
+            <type_NamedElement>
+              <componentMoniker
+                Id="c12145ab-4903-4800-a2d0-41ab674cd3ab"
+                LastKnownName="Component1"
+                LastKnownLocation="FeedReader.uml" />
+            </type_NamedElement>
+          </part>
+          <requiredInterface
+            Id="19ab390b-ddd5-4e65-b1cc-a8cbeb8ebdfd"
+            name="Port1"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false"
+            isService="false"
+            isBehavior="false">
+            <suppliersInternal>
+              <dependency
+                Id="0329ca3b-4c4a-4b22-90b5-a53b7fe32db8">
+                <providedInterfaceMoniker
+                  Id="4e0904c1-8b88-4efe-8693-d81d39ebb886"
+                  LastKnownName="Port2"
+                  LastKnownLocation="FeedReader.uml" />
+              </dependency>
+            </suppliersInternal>
+            <type_NamedElement>
+              <interfaceMoniker
+                Id="7aa82bd7-e91a-467c-8a90-7f41f7c989b9"
+                LastKnownName="Interface5"
+                LastKnownLocation="FeedReader.uml" />
+            </type_NamedElement>
+          </requiredInterface>
+        </ownedAttributesInternal>
+      </component>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <component
+        Id="c12145ab-4903-4800-a2d0-41ab674cd3ab"
+        name="Component1"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <ownedAttributesInternal>
+          <providedInterface
+            Id="6e4bcfc9-0cc6-4f4b-a0e9-b85d7e704660"
+            name="Port1"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false"
+            isService="false"
+            isBehavior="false">
+            <type_NamedElement>
+              <interfaceMoniker
+                Id="aea7878c-e4f9-4c80-9c41-fa35a290cace"
+                LastKnownName="Interface3"
+                LastKnownLocation="FeedReader.uml" />
+            </type_NamedElement>
+          </providedInterface>
+        </ownedAttributesInternal>
+      </component>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <Interface
+        Id="aea7878c-e4f9-4c80-9c41-fa35a290cace"
+        name="Interface3"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <Interface
+        Id="05f0a90e-01c0-45c4-b84b-2a9ee7909734"
+        name="Interface4"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <Interface
+        Id="7aa82bd7-e91a-467c-8a90-7f41f7c989b9"
+        name="Interface5"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <Interface
+        Id="64d3fdad-2de5-4637-bfb7-e837ae75e6e3"
+        name="TCP"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <component
+        Id="1a11bf00-d2f1-4518-aa4a-9dec80433490"
+        name="WEB Browser"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <ownedAttributesInternal>
+          <requiredInterface
+            Id="80844be8-989e-47ed-88bc-624b7deafbd7"
+            name="Port1"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false"
+            isService="false"
+            isBehavior="false">
+            <suppliersInternal>
+              <dependency
+                Id="32bfc835-97bd-4f19-8dfe-9ac514e8a0e7">
+                <providedInterfaceMoniker
+                  Id="52e8c841-c697-402c-91c2-2c2171506e1b"
+                  LastKnownName="Port1"
+                  LastKnownLocation="FeedReader.uml" />
+              </dependency>
+            </suppliersInternal>
+            <type_NamedElement>
+              <interfaceMoniker
+                Id="552a5c7b-383d-4962-85eb-72dc004258cc"
+                LastKnownName="HTTP"
+                LastKnownLocation="FeedReader.uml" />
+            </type_NamedElement>
+          </requiredInterface>
+        </ownedAttributesInternal>
+      </component>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <component
+        Id="b12d2695-dd2f-4e98-8262-d5ff30a793b7"
+        name="Feed Reader Site"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <ownedAttributesInternal>
+          <providedInterface
+            Id="52e8c841-c697-402c-91c2-2c2171506e1b"
+            name="Port1"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false"
+            isService="false"
+            isBehavior="false">
+            <targetNamedElementsInternal>
+              <connector
+                Id="c0a43e79-f059-40af-8e05-af734ddb7e6b"
+                isLeaf="false"
+                isStatic="false">
+                <partMoniker
+                  Id="bc943e14-f6a9-4441-84a0-a874d76d3351"
+                  LastKnownName="WEBUI"
+                  LastKnownLocation="FeedReader.uml" />
+                <relationshipOwnedElementsInternal>
+                  <connectorHasConnectorEnds>
+                    <connectorEnd
+                      Id="be315fd4-8636-4716-a0ca-d6df77c0ff6c" />
+                  </connectorHasConnectorEnds>
+                  <connectorHasConnectorEnds>
+                    <connectorEnd
+                      Id="0e1cf956-da81-48d5-a5d5-d6b020c341a8">
+                      <portWithPart>
+                        <providedInterfaceMoniker
+                          Id="648081ab-38e2-446c-aadc-2b1e6e0a93ed"
+                          LastKnownName="Port2"
+                          LastKnownLocation="FeedReader.uml" />
+                      </portWithPart>
+                    </connectorEnd>
+                  </connectorHasConnectorEnds>
+                </relationshipOwnedElementsInternal>
+              </connector>
+            </targetNamedElementsInternal>
+            <type_NamedElement>
+              <interfaceMoniker
+                Id="53f70f5f-0b87-4395-9e0d-cdfcfd9ff76b"
+                LastKnownName="Internet"
+                LastKnownLocation="FeedReader.uml" />
+            </type_NamedElement>
+          </providedInterface>
+          <part
+            Id="257dea1f-b19e-41e4-adfc-255cc77cde07"
+            name="Data Service "
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="Composite"
+            isComposite="true">
+            <targetNamedElementsInternal>
+              <connector
+                Id="a7377b3a-b295-44a7-aa2a-a8ae91840832"
+                isLeaf="false"
+                isStatic="false">
+                <requiredInterfaceMoniker
+                  Id="d8058cd7-762c-45c5-9eb5-0bf8a017b6b9"
+                  LastKnownName="Port2"
+                  LastKnownLocation="FeedReader.uml" />
+                <relationshipOwnedElementsInternal>
+                  <connectorHasConnectorEnds>
+                    <connectorEnd
+                      Id="9cae3285-9d29-4dd2-8706-0efda5fafc87">
+                      <portWithPart>
+                        <requiredInterfaceMoniker
+                          Id="7182b84a-29b3-429a-82e5-91d3a77d4b75"
+                          LastKnownName="Port1"
+                          LastKnownLocation="FeedReader.uml" />
+                      </portWithPart>
+                    </connectorEnd>
+                  </connectorHasConnectorEnds>
+                  <connectorHasConnectorEnds>
+                    <connectorEnd
+                      Id="447b09c4-d49c-4620-ae04-c27f07044415" />
+                  </connectorHasConnectorEnds>
+                </relationshipOwnedElementsInternal>
+              </connector>
+            </targetNamedElementsInternal>
+            <type_NamedElement>
+              <componentMoniker
+                Id="74b142e5-0561-4300-82b6-569e7086d250"
+                LastKnownName="Component3"
+                LastKnownLocation="FeedReader.uml" />
+            </type_NamedElement>
+          </part>
+          <requiredInterface
+            Id="d8058cd7-762c-45c5-9eb5-0bf8a017b6b9"
+            name="Port2"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false"
+            isService="false"
+            isBehavior="false">
+            <suppliersInternal>
+              <dependency
+                Id="021beca1-015e-4ed4-9c61-980874be53a1">
+                <providedInterfaceMoniker
+                  Id="4e0904c1-8b88-4efe-8693-d81d39ebb886"
+                  LastKnownName="Port2"
+                  LastKnownLocation="FeedReader.uml" />
+              </dependency>
+            </suppliersInternal>
+            <type_NamedElement>
+              <interfaceMoniker
+                Id="7ef84e3a-5bab-4219-aab3-dcad6f63a88c"
+                LastKnownName="TCP"
+                LastKnownLocation="FeedReader.uml" />
+            </type_NamedElement>
+          </requiredInterface>
+          <part
+            Id="fa5134b9-5cf3-4065-ba9f-4ff6b0dd950f"
+            name="Account Authorization"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="Composite"
+            isComposite="true">
+            <targetNamedElementsInternal>
+              <connector
+                Id="169d140b-272d-4709-a0dc-dd5d6835dd64"
+                isLeaf="false"
+                isStatic="false">
+                <requiredInterfaceMoniker
+                  Id="6521ce6a-e321-443f-8e3d-0f972efd214f"
+                  LastKnownName="Port3"
+                  LastKnownLocation="FeedReader.uml" />
+                <relationshipOwnedElementsInternal>
+                  <connectorHasConnectorEnds>
+                    <connectorEnd
+                      Id="0564b01f-dc80-4689-88e8-c331e9ac836f">
+                      <portWithPart>
+                        <requiredInterfaceMoniker
+                          Id="722bd6c1-65f3-4dc4-85a9-e12818480de7"
+                          LastKnownName="Port1"
+                          LastKnownLocation="FeedReader.uml" />
+                      </portWithPart>
+                    </connectorEnd>
+                  </connectorHasConnectorEnds>
+                  <connectorHasConnectorEnds>
+                    <connectorEnd
+                      Id="bf3ab978-e517-4622-976a-2ee762030391" />
+                  </connectorHasConnectorEnds>
+                </relationshipOwnedElementsInternal>
+              </connector>
+            </targetNamedElementsInternal>
+            <type_NamedElement>
+              <componentMoniker
+                Id="f8d2ed06-b70b-4c17-b539-57e328c3663f"
+                LastKnownName="Component4"
+                LastKnownLocation="FeedReader.uml" />
+            </type_NamedElement>
+          </part>
+          <requiredInterface
+            Id="6521ce6a-e321-443f-8e3d-0f972efd214f"
+            name="Port3"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false"
+            isService="false"
+            isBehavior="false">
+            <type_NamedElement>
+              <interfaceMoniker
+                Id="2179e323-ed35-47bd-9372-585640e80297"
+                LastKnownName="External Authorizator"
+                LastKnownLocation="FeedReader.uml" />
+            </type_NamedElement>
+          </requiredInterface>
+          <part
+            Id="bc943e14-f6a9-4441-84a0-a874d76d3351"
+            name="WEBUI"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="Composite"
+            isComposite="true">
+            <targetNamedElementsInternal>
+              <connector
+                Id="17452d0f-d7f7-49f1-ae56-abb1baa546ef"
+                isLeaf="false"
+                isStatic="false">
+                <partMoniker
+                  Id="257dea1f-b19e-41e4-adfc-255cc77cde07"
+                  LastKnownName="Data Service "
+                  LastKnownLocation="FeedReader.uml" />
+                <relationshipOwnedElementsInternal>
+                  <connectorHasConnectorEnds>
+                    <connectorEnd
+                      Id="3e285be8-8397-4075-b406-83f85868f7ce">
+                      <portWithPart>
+                        <requiredInterfaceMoniker
+                          Id="99678972-3f9f-4ce2-a273-4ffdf46554dc"
+                          LastKnownName="Port1"
+                          LastKnownLocation="FeedReader.uml" />
+                      </portWithPart>
+                    </connectorEnd>
+                  </connectorHasConnectorEnds>
+                  <connectorHasConnectorEnds>
+                    <connectorEnd
+                      Id="bfa335fd-ab8a-4385-be38-121632938d4f">
+                      <portWithPart>
+                        <providedInterfaceMoniker
+                          Id="bd3899c1-dc0b-4e96-807e-dca40e2008b8"
+                          LastKnownName="Port2"
+                          LastKnownLocation="FeedReader.uml" />
+                      </portWithPart>
+                    </connectorEnd>
+                  </connectorHasConnectorEnds>
+                </relationshipOwnedElementsInternal>
+              </connector>
+            </targetNamedElementsInternal>
+            <type_NamedElement>
+              <componentMoniker
+                Id="2b15a35c-d995-42c4-8d86-6ee2df8a2e76"
+                LastKnownName="Component5"
+                LastKnownLocation="FeedReader.uml" />
+            </type_NamedElement>
+          </part>
+        </ownedAttributesInternal>
+      </component>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <Interface
+        Id="552a5c7b-383d-4962-85eb-72dc004258cc"
+        name="HTTP"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <Interface
+        Id="53f70f5f-0b87-4395-9e0d-cdfcfd9ff76b"
+        name="Internet"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <component
+        Id="74b142e5-0561-4300-82b6-569e7086d250"
+        name="Component3"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <ownedAttributesInternal>
+          <requiredInterface
+            Id="7182b84a-29b3-429a-82e5-91d3a77d4b75"
+            name="Port1"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false"
+            isService="false"
+            isBehavior="false">
+            <type_NamedElement>
+              <interfaceMoniker
+                Id="d1ba2f8c-dcdf-45f3-8b4b-0f4ba0d0c5c1"
+                LastKnownName="Interface8"
+                LastKnownLocation="FeedReader.uml" />
+            </type_NamedElement>
+          </requiredInterface>
+          <providedInterface
+            Id="bd3899c1-dc0b-4e96-807e-dca40e2008b8"
+            name="Port2"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false"
+            isService="false"
+            isBehavior="false">
+            <type_NamedElement>
+              <interfaceMoniker
+                Id="8c25fe06-d419-460b-84be-904e24c94a29"
+                LastKnownName="Interface12"
+                LastKnownLocation="FeedReader.uml" />
+            </type_NamedElement>
+          </providedInterface>
+        </ownedAttributesInternal>
+      </component>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <Interface
+        Id="7ef84e3a-5bab-4219-aab3-dcad6f63a88c"
+        name="TCP"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <Interface
+        Id="d1ba2f8c-dcdf-45f3-8b4b-0f4ba0d0c5c1"
+        name="Interface8"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <component
+        Id="f8d2ed06-b70b-4c17-b539-57e328c3663f"
+        name="Component4"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <ownedAttributesInternal>
+          <requiredInterface
+            Id="722bd6c1-65f3-4dc4-85a9-e12818480de7"
+            name="Port1"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false"
+            isService="false"
+            isBehavior="false">
+            <type_NamedElement>
+              <interfaceMoniker
+                Id="b29f61e4-3e4d-4a97-88d2-7000dced48de"
+                LastKnownName="Interface9"
+                LastKnownLocation="FeedReader.uml" />
+            </type_NamedElement>
+          </requiredInterface>
+        </ownedAttributesInternal>
+      </component>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <Interface
+        Id="2179e323-ed35-47bd-9372-585640e80297"
+        name="External Authorizator"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <Interface
+        Id="b29f61e4-3e4d-4a97-88d2-7000dced48de"
+        name="Interface9"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <component
+        Id="2b15a35c-d995-42c4-8d86-6ee2df8a2e76"
+        name="Component5"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <ownedAttributesInternal>
+          <requiredInterface
+            Id="99678972-3f9f-4ce2-a273-4ffdf46554dc"
+            name="Port1"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false"
+            isService="false"
+            isBehavior="false">
+            <type_NamedElement>
+              <interfaceMoniker
+                Id="09588477-df36-49f7-99a3-9aaded252f83"
+                LastKnownName="Interface13"
+                LastKnownLocation="FeedReader.uml" />
+            </type_NamedElement>
+          </requiredInterface>
+          <providedInterface
+            Id="648081ab-38e2-446c-aadc-2b1e6e0a93ed"
+            name="Port2"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false"
+            isService="false"
+            isBehavior="false">
+            <type_NamedElement>
+              <interfaceMoniker
+                Id="298e44b3-dc43-4feb-8a6b-df0ea9f17035"
+                LastKnownName="Controller"
+                LastKnownLocation="FeedReader.uml" />
+            </type_NamedElement>
+          </providedInterface>
+        </ownedAttributesInternal>
+      </component>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <Interface
+        Id="808227b5-3964-41d8-92bb-b20b6ae79dac"
+        name="Interface10"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <Interface
+        Id="9a2f1c6c-84f6-44e9-9c22-19d3f494adcd"
+        name="Interface11"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <Interface
+        Id="8c25fe06-d419-460b-84be-904e24c94a29"
+        name="Interface12"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <Interface
+        Id="09588477-df36-49f7-99a3-9aaded252f83"
+        name="Interface13"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <Interface
+        Id="62527001-d3c2-4e1a-8915-43c0fe938de9"
+        name="Interface14"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <Interface
+        Id="298e44b3-dc43-4feb-8a6b-df0ea9f17035"
+        name="Controller"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <activity
+        Id="b6abbf28-4d4f-4f5d-b639-cf04f46684df"
+        name="LoginActivityDiagram"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false"
+        isReentrant="false"
+        isReadOnly="false"
+        isSingleExecution="false">
+        <nodes>
+          <initialNode
+            Id="9794a125-6df8-4447-b350-f24ae00ea5a5"
+            name="Initial1"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="19f8cb71-b27f-4ec7-be57-4685185ba9b1"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="1d0ce9f4-a415-4942-963c-fc9ab16dec20"
+                  LastKnownName="کاربر فرم ورود را در خواست می دهد"
+                  LastKnownLocation="FeedReader.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </initialNode>
+          <opaqueAction
+            Id="1d0ce9f4-a415-4942-963c-fc9ab16dec20"
+            name="کاربر فرم ورود را در خواست می دهد"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="734a3ba9-bb43-4b3f-b078-1c4509580dda"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="93b83a25-467c-483e-ba00-a7da8ba13389"
+                  LastKnownName="سیستم فرم را نمایش میدهد"
+                  LastKnownLocation="FeedReader.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction
+            Id="93e0b480-d3bf-4d52-848b-5151ae3637e1"
+            name="کاربر اطلاعات کاربری خود را وارد می کند"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="81a66884-5c17-4861-ac42-f49f2c9aef0f"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="4b68d004-c04f-4072-8176-b92fafee1099"
+                  LastKnownName="سیستم صحت اطلاعات کاربر را بررسی می کند"
+                  LastKnownLocation="FeedReader.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction
+            Id="93b83a25-467c-483e-ba00-a7da8ba13389"
+            name="سیستم فرم را نمایش میدهد"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="4b6c0b65-aaa7-4dca-a327-a9452442a202"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="93e0b480-d3bf-4d52-848b-5151ae3637e1"
+                  LastKnownName="کاربر اطلاعات کاربری خود را وارد می کند"
+                  LastKnownLocation="FeedReader.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction
+            Id="4b68d004-c04f-4072-8176-b92fafee1099"
+            name="سیستم صحت اطلاعات کاربر را بررسی می کند"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="c8ec4fdf-9465-4b01-9a1d-c3b17c4c9e0c"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="1f4dbb20-36f3-4c43-8087-75ff53eda35f"
+                  LastKnownName="اجازه دسترسی به کاربر داده می شود"
+                  LastKnownLocation="FeedReader.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction
+            Id="1f4dbb20-36f3-4c43-8087-75ff53eda35f"
+            name="اجازه دسترسی به کاربر داده می شود"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="b8a572e4-a467-4755-afd9-1a93f66cd589"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="266556a8-d121-4c77-8ead-6502f20afbfb"
+                  LastKnownName="کاربر به صفحه اصلی منتقل می شود"
+                  LastKnownLocation="FeedReader.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction
+            Id="266556a8-d121-4c77-8ead-6502f20afbfb"
+            name="کاربر به صفحه اصلی منتقل می شود"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="dc5b6981-7ce9-43c1-9866-352d774a7d74"
+                isLeaf="false">
+                <activityFinalNodeMoniker
+                  Id="b99b7bdc-97b2-47dd-818f-a16be07662ce"
+                  LastKnownName="ActivityFinal1"
+                  LastKnownLocation="FeedReader.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <activityFinalNode
+            Id="b99b7bdc-97b2-47dd-818f-a16be07662ce"
+            name="ActivityFinal1"
+            isLeaf="false" />
+        </nodes>
+      </activity>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <activity
+        Id="bde4c965-437b-4d8b-9a67-c1e1193fccac"
+        name="Register"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false"
+        isReentrant="false"
+        isReadOnly="false"
+        isSingleExecution="false">
+        <nodes>
+          <initialNode
+            Id="c08920aa-3ddc-4281-b4bc-347e38f93593"
+            name="Initial1"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="d44250a2-71f7-419a-807d-a8a69cd1869b"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="d729d624-faec-42c9-ba35-de4ecc119d6f"
+                  LastKnownName="کاربر فرم ثبت نام را در خواست می دهد"
+                  LastKnownLocation="FeedReader.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </initialNode>
+          <opaqueAction
+            Id="d729d624-faec-42c9-ba35-de4ecc119d6f"
+            name="کاربر فرم ثبت نام را در خواست می دهد"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="cd648e78-67de-4068-9894-0d8a6912cb4c"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="923a687d-31e6-4648-9b66-8b9a56428e20"
+                  LastKnownName="سیستم فرم را نمایش میدهد"
+                  LastKnownLocation="FeedReader.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction
+            Id="bad419e7-d42c-48b5-8791-54d8b58d5f32"
+            name="کاربر اطلاعات کاربری خود را وارد می کند"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="3ef9472d-ed1d-489b-add1-af77273d8ce9"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="9200721d-66c8-4acd-a8af-51e1c4163f02"
+                  LastKnownName="سیستم صحت اطلاعات کاربر را بررسی می کند"
+                  LastKnownLocation="FeedReader.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction
+            Id="923a687d-31e6-4648-9b66-8b9a56428e20"
+            name="سیستم فرم را نمایش میدهد"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="5ecb147b-8238-4b68-be51-a3393d04e7a4"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="bad419e7-d42c-48b5-8791-54d8b58d5f32"
+                  LastKnownName="کاربر اطلاعات کاربری خود را وارد می کند"
+                  LastKnownLocation="FeedReader.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction
+            Id="9200721d-66c8-4acd-a8af-51e1c4163f02"
+            name="سیستم صحت اطلاعات کاربر را بررسی می کند"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="d1aefd16-42d6-4918-9f21-7638b05eb62b"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="a5082f66-186d-4e88-9502-a4f973ad99f5"
+                  LastKnownName="اجازه دسترسی به کاربر داده می شود"
+                  LastKnownLocation="FeedReader.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction
+            Id="a5082f66-186d-4e88-9502-a4f973ad99f5"
+            name="اجازه دسترسی به کاربر داده می شود"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="6e541d04-a0b4-47a6-9082-55cbcb7dce7e"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="26ce7d53-1378-49a9-9fdc-d85b24bf96d0"
+                  LastKnownName="کاربر به صفحه اصلی منتقل می شود"
+                  LastKnownLocation="FeedReader.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction
+            Id="26ce7d53-1378-49a9-9fdc-d85b24bf96d0"
+            name="کاربر به صفحه اصلی منتقل می شود"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="28027fec-9cd3-4190-b645-601aadc27b70"
+                isLeaf="false">
+                <activityFinalNodeMoniker
+                  Id="7737deac-24d5-40ea-b6aa-bfc61698b2c1"
+                  LastKnownName="ActivityFinal1"
+                  LastKnownLocation="FeedReader.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <activityFinalNode
+            Id="7737deac-24d5-40ea-b6aa-bfc61698b2c1"
+            name="ActivityFinal1"
+            isLeaf="false" />
+        </nodes>
+      </activity>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <activity
+        Id="ddd09d51-015c-4504-89bd-9bcc2ed3727d"
+        name="Reset Password"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false"
+        isReentrant="false"
+        isReadOnly="false"
+        isSingleExecution="false">
+        <nodes>
+          <initialNode
+            Id="f929fb3e-f7d2-4ae2-bb0f-a78059a496f0"
+            name="Initial1"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="195ada5b-e60e-4c94-995e-120d5f4a535a"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="59f6c1fb-e0d5-47c4-a80f-877aba4ec066"
+                  LastKnownName="کاربر فرم تغییر کلمه عبور را در خواست می دهد"
+                  LastKnownLocation="FeedReader.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </initialNode>
+          <opaqueAction
+            Id="59f6c1fb-e0d5-47c4-a80f-877aba4ec066"
+            name="کاربر فرم تغییر کلمه عبور را در خواست می دهد"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="3245b2fe-4a06-40d9-a8eb-cef439627c57"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="88c70182-687d-4316-aebd-bfb92c6df1b6"
+                  LastKnownName="سیستم فرم را نمایش میدهد"
+                  LastKnownLocation="FeedReader.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction
+            Id="1f797a73-bee5-431f-bf94-b80e4bcf3cbf"
+            name="کاربر اطلاعات کاربری خود را وارد می کند"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="9450a55b-9a98-462e-a39b-e4b0120bfc0a"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="3ae3f442-6308-4388-b87e-6486e42c935f"
+                  LastKnownName="سیستم صحت اطلاعات کاربر را بررسی می کند"
+                  LastKnownLocation="FeedReader.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction
+            Id="88c70182-687d-4316-aebd-bfb92c6df1b6"
+            name="سیستم فرم را نمایش میدهد"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="3821d6b9-2e46-435f-99b7-53c5ae01582d"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="1f797a73-bee5-431f-bf94-b80e4bcf3cbf"
+                  LastKnownName="کاربر اطلاعات کاربری خود را وارد می کند"
+                  LastKnownLocation="FeedReader.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction
+            Id="3ae3f442-6308-4388-b87e-6486e42c935f"
+            name="سیستم صحت اطلاعات کاربر را بررسی می کند"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="fbcfd2f4-36e4-41ce-bcb4-ce413daec66c"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="17bda975-57e0-45b5-867b-bb554c04b60a"
+                  LastKnownName="اطلاعات ثبت می شود و کلمه عبور تغییر می یابد"
+                  LastKnownLocation="FeedReader.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction
+            Id="17bda975-57e0-45b5-867b-bb554c04b60a"
+            name="اطلاعات ثبت می شود و کلمه عبور تغییر می یابد"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="f606d50b-e6d5-4e5e-90aa-09b5ff6194e1"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="26c097dc-35fe-4ecb-a5de-3ec2c78d55c5"
+                  LastKnownName="کاربر از سیستم خارج می شود"
+                  LastKnownLocation="FeedReader.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction
+            Id="26c097dc-35fe-4ecb-a5de-3ec2c78d55c5"
+            name="کاربر از سیستم خارج می شود"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="10d63290-e280-48d8-a9bb-8d2192c0aa1c"
+                isLeaf="false">
+                <activityFinalNodeMoniker
+                  Id="5d4e1471-e937-4ea7-9490-60a933ca488b"
+                  LastKnownName="ActivityFinal1"
+                  LastKnownLocation="FeedReader.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <activityFinalNode
+            Id="5d4e1471-e937-4ea7-9490-60a933ca488b"
+            name="ActivityFinal1"
+            isLeaf="false" />
+        </nodes>
+      </activity>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <activity
+        Id="92d8eeea-aaa3-4f24-bfb8-8d9ae2f658bd"
+        name="LogOut"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false"
+        isReentrant="false"
+        isReadOnly="false"
+        isSingleExecution="false">
+        <nodes>
+          <initialNode
+            Id="73695415-c13f-4434-b606-fae97e7dd012"
+            name="Initial1"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="ee747765-4a77-404d-821b-274c80949b9a"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="51852cdb-dff4-4c51-951d-7cce384d0db4"
+                  LastKnownName="کاربر بر روی دکمه خروج از سیستم کلیک می کند"
+                  LastKnownLocation="FeedReader.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </initialNode>
+          <opaqueAction
+            Id="51852cdb-dff4-4c51-951d-7cce384d0db4"
+            name="کاربر بر روی دکمه خروج از سیستم کلیک می کند"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="b7b4606a-0cb4-4a82-9dce-c84e2bbf29f1"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="f46b1556-2255-459f-b93b-1eb01791a0df"
+                  LastKnownName="سیستم جلسه کاربر را تمام می"
+                  LastKnownLocation="FeedReader.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction
+            Id="c9788432-11ea-423f-8ef9-840099536fd4"
+            name="کاربر به صفحه اصلی منتقل می شود"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="f1410c6b-a828-4d67-a4c5-e4583ecd707e"
+                isLeaf="false">
+                <activityFinalNodeMoniker
+                  Id="66a51298-7f33-4276-ba13-77132c8771a1"
+                  LastKnownName="ActivityFinal2"
+                  LastKnownLocation="FeedReader.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction
+            Id="f46b1556-2255-459f-b93b-1eb01791a0df"
+            name="سیستم جلسه کاربر را تمام می"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="db4b3dfd-2626-4c7b-917f-6b6d742d76e8"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="02d74f50-31df-43ce-90df-28a3b0af1b31"
+                  LastKnownName="همه پردازش های کاربر را لغو می کند"
+                  LastKnownLocation="FeedReader.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction
+            Id="02d74f50-31df-43ce-90df-28a3b0af1b31"
+            name="همه پردازش های کاربر را لغو می کند"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="c72f9f40-63fc-4853-b36b-750a8418a3f2"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="c9788432-11ea-423f-8ef9-840099536fd4"
+                  LastKnownName="کاربر به صفحه اصلی منتقل می شود"
+                  LastKnownLocation="FeedReader.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <activityFinalNode
+            Id="66a51298-7f33-4276-ba13-77132c8771a1"
+            name="ActivityFinal2"
+            isLeaf="false" />
+        </nodes>
+      </activity>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <activity
+        Id="3c11dd92-d5aa-49db-9594-fa7608c5c019"
+        name="New Feed"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false"
+        isReentrant="false"
+        isReadOnly="false"
+        isSingleExecution="false">
+        <nodes>
+          <initialNode
+            Id="73f8bf91-7851-469f-8e4b-fcf3880ba19e"
+            name="Initial1"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="5cbe7c79-3be7-46dd-8ad3-69552e3549de"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="9768a4c3-606a-456d-945d-083076f9aef3"
+                  LastKnownName="کاربر فرم ورود را در خواست می دهد"
+                  LastKnownLocation="FeedReader.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </initialNode>
+          <opaqueAction
+            Id="9768a4c3-606a-456d-945d-083076f9aef3"
+            name="کاربر فرم ورود را در خواست می دهد"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="f484b65d-6c18-423a-9f31-08b5dc569945"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="59612c4a-835d-4fbc-a329-21fe637b3a05"
+                  LastKnownName="سیستم فرم را نمایش میدهد"
+                  LastKnownLocation="FeedReader.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction
+            Id="97da6dee-ff99-4c59-93ea-8356156177fd"
+            name="کاربر اطلاعات خوراک خود را وارد می کند"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="9131b997-1267-4a72-867b-3c22445f200e"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="f20d8931-e2e1-4529-a76a-d47e8baeefec"
+                  LastKnownName="سیستم صحت اطلاعات کاربر را بررسی می کند"
+                  LastKnownLocation="FeedReader.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction
+            Id="59612c4a-835d-4fbc-a329-21fe637b3a05"
+            name="سیستم فرم را نمایش میدهد"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="f7a9384a-5b56-4c40-b910-eb144a69a3f0"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="97da6dee-ff99-4c59-93ea-8356156177fd"
+                  LastKnownName="کاربر اطلاعات خوراک خود را وارد می کند"
+                  LastKnownLocation="FeedReader.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction
+            Id="f20d8931-e2e1-4529-a76a-d47e8baeefec"
+            name="سیستم صحت اطلاعات کاربر را بررسی می کند"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="fa3d74b1-8c24-49de-9a7b-fdf50b2be5eb"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="ddff54b8-84bd-486e-bc40-769ba8c8510c"
+                  LastKnownName="سیستم خوراک جدید را بررسی میکند"
+                  LastKnownLocation="FeedReader.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction
+            Id="ddff54b8-84bd-486e-bc40-769ba8c8510c"
+            name="سیستم خوراک جدید را بررسی میکند"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="2ca78426-d1e2-41e0-a5fa-9401fefc4850"
+                isLeaf="false">
+                <activityFinalNodeMoniker
+                  Id="dbb4deaf-19d3-4b99-914b-594f68716310"
+                  LastKnownName="ActivityFinal1"
+                  LastKnownLocation="FeedReader.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <activityFinalNode
+            Id="dbb4deaf-19d3-4b99-914b-594f68716310"
+            name="ActivityFinal1"
+            isLeaf="false" />
+        </nodes>
+      </activity>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <activity
+        Id="f60154f3-7cab-4de8-9913-5569979e4808"
+        name="BrowseFeedList"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false"
+        isReentrant="false"
+        isReadOnly="false"
+        isSingleExecution="false">
+        <nodes>
+          <initialNode
+            Id="06984985-9feb-4372-9155-bedaff27c2c0"
+            name="Initial1"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="897aa007-3809-4fe0-9210-a6faa1113a8c"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="26d3527d-9598-4376-9c00-f03b0aee8cea"
+                  LastKnownName="کاربر لیست خوراک ها را در خواست می دهد"
+                  LastKnownLocation="FeedReader.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </initialNode>
+          <opaqueAction
+            Id="26d3527d-9598-4376-9c00-f03b0aee8cea"
+            name="کاربر لیست خوراک ها را در خواست می دهد"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="2be37db1-4e60-4467-92e8-f8c5452a01a9"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="3fc6d0f3-74d0-432a-a8c2-262d9169475b"
+                  LastKnownName="سیستم فرم را نمایش میدهد"
+                  LastKnownLocation="FeedReader.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction
+            Id="3fc6d0f3-74d0-432a-a8c2-262d9169475b"
+            name="سیستم فرم را نمایش میدهد"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="3d9b15cd-8360-4262-9fb3-2a4ccfea752d"
+                isLeaf="false">
+                <activityFinalNodeMoniker
+                  Id="a5db45c8-6737-4a9e-8e70-366dd5efd94b"
+                  LastKnownName="ActivityFinal1"
+                  LastKnownLocation="FeedReader.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <activityFinalNode
+            Id="a5db45c8-6737-4a9e-8e70-366dd5efd94b"
+            name="ActivityFinal1"
+            isLeaf="false" />
+        </nodes>
+      </activity>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <activity
+        Id="e118443b-d558-49eb-a984-4d050ba1bd26"
+        name="UploadOPML"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false"
+        isReentrant="false"
+        isReadOnly="false"
+        isSingleExecution="false">
+        <nodes>
+          <initialNode
+            Id="bd2fbc39-a0d7-4c4a-9599-036e48e34ffa"
+            name="Initial1"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="2543af75-6145-461f-9b2e-ab0cf3b6873a"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="833cebc4-12fb-47de-8e71-2e07fd8377c7"
+                  LastKnownName="کاربر فرم ارسال فایل را در خواست می دهد"
+                  LastKnownLocation="FeedReader.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </initialNode>
+          <opaqueAction
+            Id="833cebc4-12fb-47de-8e71-2e07fd8377c7"
+            name="کاربر فرم ارسال فایل را در خواست می دهد"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="90e20cba-f9d2-4c25-8414-6ef7ebfc9173"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="c6bc99ed-e152-44b7-bb84-26dedbd4de71"
+                  LastKnownName="کاربر فایل خود را وارد می کند"
+                  LastKnownLocation="FeedReader.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction
+            Id="c6bc99ed-e152-44b7-bb84-26dedbd4de71"
+            name="کاربر فایل خود را وارد می کند"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="4f64fb13-75e9-436f-8ff4-f01275f394e2"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="c3250a6b-c2b8-4a62-973d-7da0e345a55e"
+                  LastKnownName="سیستم صحت اطلاعات کاربر را بررسی می کند"
+                  LastKnownLocation="FeedReader.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction
+            Id="c3250a6b-c2b8-4a62-973d-7da0e345a55e"
+            name="سیستم صحت اطلاعات کاربر را بررسی می کند"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="1260427d-4aa6-4db3-bb51-a0b8ebde143d"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="76ab2a94-629a-40ab-97cc-955f151218ca"
+                  LastKnownName="سیستم فایل را خوانده و آن را وارد بانک می کند"
+                  LastKnownLocation="FeedReader.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction
+            Id="76ab2a94-629a-40ab-97cc-955f151218ca"
+            name="سیستم فایل را خوانده و آن را وارد بانک می کند"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="09a997fe-b8e0-49c7-abed-14ecc591ec24"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="d150bfde-ed42-471c-abfb-d562721b6a4b"
+                  LastKnownName="سیستم پیغام اتمام عملیات بارگذاری را به کاربر نمایش می دهد"
+                  LastKnownLocation="FeedReader.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction
+            Id="d150bfde-ed42-471c-abfb-d562721b6a4b"
+            name="سیستم پیغام اتمام عملیات بارگذاری را به کاربر نمایش می دهد"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="63fe7111-a9de-4b29-afe3-d93bbf42ed22"
+                isLeaf="false">
+                <activityFinalNodeMoniker
+                  Id="2fc44c15-7bcc-4e12-a595-dd5b84d19d1f"
+                  LastKnownName="ActivityFinal1"
+                  LastKnownLocation="FeedReader.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <activityFinalNode
+            Id="2fc44c15-7bcc-4e12-a595-dd5b84d19d1f"
+            name="ActivityFinal1"
+            isLeaf="false" />
+        </nodes>
+      </activity>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <activity
+        Id="12cba066-96b9-4b32-aed2-a1b5d5e79794"
+        name="DownloadOPML"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false"
+        isReentrant="false"
+        isReadOnly="false"
+        isSingleExecution="false">
+        <nodes>
+          <initialNode
+            Id="57d05e64-04be-493c-a5ba-160df4e02cda"
+            name="Initial1"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="ad271bcf-41c1-48c4-857f-167e12d4dc9d"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="ff7261e8-7e2b-472d-9bd3-0a43e5c3942b"
+                  LastKnownName="کاربر  فایل را در خواست می دهد"
+                  LastKnownLocation="FeedReader.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </initialNode>
+          <opaqueAction
+            Id="ff7261e8-7e2b-472d-9bd3-0a43e5c3942b"
+            name="کاربر  فایل را در خواست می دهد"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="f29f196d-0c1b-4d0a-906b-0157df9e6112"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="8b224b8e-c6a8-475f-8669-9527b25956c1"
+                  LastKnownName="سیستم لیست خوراک های کاربر را بصورت یک فایل OPML ایجاد می کند"
+                  LastKnownLocation="FeedReader.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction
+            Id="8b224b8e-c6a8-475f-8669-9527b25956c1"
+            name="سیستم لیست خوراک های کاربر را بصورت یک فایل OPML ایجاد می کند"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="ec4cd271-7267-4fb0-af06-0db622c14527"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="723bdf30-e9e1-4ca4-80ae-5dbff732eb30"
+                  LastKnownName="سیستم فایل را به کاربر تحویل می دهد"
+                  LastKnownLocation="FeedReader.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction
+            Id="723bdf30-e9e1-4ca4-80ae-5dbff732eb30"
+            name="سیستم فایل را به کاربر تحویل می دهد"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="cd91a3b3-015c-47c3-a271-8ab325030304"
+                isLeaf="false">
+                <activityFinalNodeMoniker
+                  Id="88f17e5a-40bb-4140-9c18-05cb1b939d0c"
+                  LastKnownName="ActivityFinal1"
+                  LastKnownLocation="FeedReader.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <activityFinalNode
+            Id="88f17e5a-40bb-4140-9c18-05cb1b939d0c"
+            name="ActivityFinal1"
+            isLeaf="false" />
+        </nodes>
+      </activity>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <activity
+        Id="a708c364-d983-46a1-a9c8-798f93676230"
+        name="FavoriteFeeds"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false"
+        isReentrant="false"
+        isReadOnly="false"
+        isSingleExecution="false">
+        <nodes>
+          <initialNode
+            Id="fe2d2541-64b0-43a5-9ef6-b3a8ead49fec"
+            name="Initial1"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="d73c0f2e-e6cc-4b54-a05b-19245494d5f0"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="79e83f54-6d7e-4fdd-b137-c10705e0cc49"
+                  LastKnownName="کاربر فرم اخبار را در خواست می دهد"
+                  LastKnownLocation="FeedReader.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </initialNode>
+          <opaqueAction
+            Id="79e83f54-6d7e-4fdd-b137-c10705e0cc49"
+            name="کاربر فرم اخبار را در خواست می دهد"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="2a7575d0-ecff-439b-8686-0496b018a48b"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="2e09fe08-f3aa-41e6-a2e6-a552f4a7c3a3"
+                  LastKnownName="سیستم فرم را نمایش میدهد"
+                  LastKnownLocation="FeedReader.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction
+            Id="c856b773-924d-4702-93df-0949a45807db"
+            name="کاربر خبر مورد نظر را انتخاب می کند"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="2d3f0078-e7c0-4577-9bbd-305b956e47a2"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="93839d89-53a9-4a40-8595-4653b1beac2e"
+                  LastKnownName="سیستم خبر انتخاب شده را در لیست علاقه مندی ها ثبت می کند"
+                  LastKnownLocation="FeedReader.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction
+            Id="2e09fe08-f3aa-41e6-a2e6-a552f4a7c3a3"
+            name="سیستم فرم را نمایش میدهد"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="a6d0ffff-5f25-4c90-852e-2efc4a93c080"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="c856b773-924d-4702-93df-0949a45807db"
+                  LastKnownName="کاربر خبر مورد نظر را انتخاب می کند"
+                  LastKnownLocation="FeedReader.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction
+            Id="93839d89-53a9-4a40-8595-4653b1beac2e"
+            name="سیستم خبر انتخاب شده را در لیست علاقه مندی ها ثبت می کند"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="fcf7977a-72e5-4be3-ac01-18aa4f06c595"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="e746df43-2c6b-4b5b-b68f-563daecd2cf7"
+                  LastKnownName="سیستم پیغام ثبت را نمایش می دهد"
+                  LastKnownLocation="FeedReader.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction
+            Id="e746df43-2c6b-4b5b-b68f-563daecd2cf7"
+            name="سیستم پیغام ثبت را نمایش می دهد"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="dc889640-93f5-4b6c-837d-601371a3d76c"
+                isLeaf="false">
+                <activityFinalNodeMoniker
+                  Id="183f0f41-8469-4a51-9302-65b27d46287c"
+                  LastKnownName="ActivityFinal1"
+                  LastKnownLocation="FeedReader.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <activityFinalNode
+            Id="183f0f41-8469-4a51-9302-65b27d46287c"
+            name="ActivityFinal1"
+            isLeaf="false" />
+        </nodes>
+      </activity>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <activity
+        Id="5fc6d606-5573-487b-8a37-54684d5ae358"
+        name="DeleteFavoriteFeed"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false"
+        isReentrant="false"
+        isReadOnly="false"
+        isSingleExecution="false">
+        <nodes>
+          <initialNode
+            Id="4aca46d3-afe5-4e62-956b-1bfb4698946a"
+            name="Initial1"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="de0b4e23-1df1-411b-8b71-ca27fa861b98"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="08ffcc44-38a7-46c3-b1e6-b5bea4b5dae2"
+                  LastKnownName="کاربر فرم علاقه مندی را در خواست می دهد"
+                  LastKnownLocation="FeedReader.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </initialNode>
+          <opaqueAction
+            Id="08ffcc44-38a7-46c3-b1e6-b5bea4b5dae2"
+            name="کاربر فرم علاقه مندی را در خواست می دهد"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="ca0fc4e0-3405-4688-a9c3-345474f5eea3"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="03de6541-269f-4764-9941-1fd694a73b94"
+                  LastKnownName="سیستم فرم را نمایش میدهد"
+                  LastKnownLocation="FeedReader.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction
+            Id="317930bf-6ae6-41bb-b1d8-e12abacc3c5b"
+            name="کاربر خبر مورد نظر را انتخاب می کند"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="7370f9f0-54f9-47c8-9ece-df117a244015"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="93acc6c9-f310-4b35-bfb6-a3c2adda58a5"
+                  LastKnownName="سیستم خبر انتخاب شده را از لیست علاقه مندی ها حذف می کند"
+                  LastKnownLocation="FeedReader.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction
+            Id="03de6541-269f-4764-9941-1fd694a73b94"
+            name="سیستم فرم را نمایش میدهد"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="b7a1b82e-1e1d-41ea-8c62-b9c11e7b7295"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="317930bf-6ae6-41bb-b1d8-e12abacc3c5b"
+                  LastKnownName="کاربر خبر مورد نظر را انتخاب می کند"
+                  LastKnownLocation="FeedReader.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction
+            Id="93acc6c9-f310-4b35-bfb6-a3c2adda58a5"
+            name="سیستم خبر انتخاب شده را از لیست علاقه مندی ها حذف می کند"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="1d56bebe-cf26-4af2-9831-daa7caa2f108"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="041a77a3-9d66-4a84-a2b5-81ea3034aaf7"
+                  LastKnownName="سیستم پیغام حذف را نمایش می دهد"
+                  LastKnownLocation="FeedReader.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction
+            Id="041a77a3-9d66-4a84-a2b5-81ea3034aaf7"
+            name="سیستم پیغام حذف را نمایش می دهد"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="40a6ae66-80dc-4fec-afaf-13d724a061e5"
+                isLeaf="false">
+                <activityFinalNodeMoniker
+                  Id="0fcd6fe1-331f-4ae1-aa98-abbde55e3aa2"
+                  LastKnownName="ActivityFinal1"
+                  LastKnownLocation="FeedReader.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <activityFinalNode
+            Id="0fcd6fe1-331f-4ae1-aa98-abbde55e3aa2"
+            name="ActivityFinal1"
+            isLeaf="false" />
+        </nodes>
+      </activity>
+    </packageHasNamedElement>
+  </packagedElements>
+  <primitiveType
+    Id="220a3521-e091-4221-bae9-3ef9018e845c"
+    name="Integer"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="8943dc84-709e-4f62-b15a-a3273aa6f165"
+    name="Boolean"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+    name="String"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="3ab42e7d-4969-445a-b209-471f5cb8209c"
+    name="UnlimitedNatural"
+    isAbstract="false"
+    isLeaf="false" />
+</modelStoreModel>

@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<layerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/SimpleShapesModel" dslVersion="1.0.0.0" Id="d74a56d7-055d-49b3-9716-e4fcf3865385" xmlns="http://schemas.microsoft.com/VisualStudio/TeamArchitect/LayerDesigner">
+  <layers>
+    <layer Id="93f8ecff-31fc-47e3-b758-1ada7a679968" name="RSSFeed.Service">
+      <dependencyToLayers>
+        <dependencyFromLayerToLayer Id="4f86672c-dbfb-45cd-bce2-57f38d1b98ea" direction="Bidirectional">
+          <layerMoniker Id="02bb3652-5f7a-4209-bae6-fc16a7f55ce4" />
+        </dependencyFromLayerToLayer>
+        <dependencyFromLayerToLayer Id="30e75358-d539-4696-b0ed-044614672716" direction="Forward">
+          <layerMoniker Id="72d68646-6344-46dd-94e3-49a2f39219d6" />
+        </dependencyFromLayerToLayer>
+      </dependencyToLayers>
+      <references>
+        <reference Id="de5f5138-a61d-441f-829a-15f1ee7c8eb4" name="RSSFeed.Service">
+          <ArtifactNode Label="RSSFeed.Service" Category="CodeSchema_Project" Id="(Assembly=&quot;$(PersonalUri)/visual studio 2013/Projects/RSSFeed/RSSFeed.Service/RSSFeed.Service.csproj&quot;)">
+            <Category Ref="File" />
+          </ArtifactNode>
+          <ExpandedNode Id="(Assembly=RSSFeed.Service)" Label="RSSFeed.Service.dll" Category="CodeSchema_Assembly">
+            <Category Ref="FileSystem.Category.FileOfType.dll" />
+            <LinkCategory Ref="Produces" />
+            <LinkCategory Ref="Represents" />
+          </ExpandedNode>
+        </reference>
+      </references>
+    </layer>
+    <layer Id="9fab9c1c-6ce4-4096-bfdc-b1a94125c2e7" name="RSSFeed.WebUI">
+      <dependencyToLayers>
+        <dependencyFromLayerToLayer Id="50ecd0ca-ccef-4a5e-a5a5-31ef979f8065" direction="Bidirectional">
+          <layerMoniker Id="93f8ecff-31fc-47e3-b758-1ada7a679968" />
+        </dependencyFromLayerToLayer>
+        <dependencyFromLayerToLayer Id="e4fb842d-fd3a-44c4-bd70-c3466f1910fa" direction="Forward">
+          <layerMoniker Id="02bb3652-5f7a-4209-bae6-fc16a7f55ce4" />
+        </dependencyFromLayerToLayer>
+        <dependencyFromLayerToLayer Id="31fdd255-f192-4aa5-b6f8-1de241977db2" direction="Forward">
+          <layerMoniker Id="72d68646-6344-46dd-94e3-49a2f39219d6" />
+        </dependencyFromLayerToLayer>
+      </dependencyToLayers>
+      <references>
+        <reference Id="cd7557fc-b22e-4859-bb4e-f3ee07600034" name="RSSFeed.WebUI">
+          <ArtifactNode Label="RSSFeed.WebUI" Category="CodeSchema_Project" Id="(Assembly=&quot;$(PersonalUri)/visual studio 2013/Projects/RSSFeed/RSSFeed/RSSFeed.WebUI.csproj&quot;)">
+            <Category Ref="File" />
+          </ArtifactNode>
+          <ExpandedNode Id="(Assembly=RSSFeed.WebUI)" Label="RSSFeed.WebUI.dll" Category="CodeSchema_Assembly">
+            <Category Ref="FileSystem.Category.FileOfType.dll" />
+            <LinkCategory Ref="Produces" />
+            <LinkCategory Ref="Represents" />
+          </ExpandedNode>
+        </reference>
+      </references>
+    </layer>
+    <layer Id="02bb3652-5f7a-4209-bae6-fc16a7f55ce4" name="RSSFeed.Data">
+      <dependencyToLayers>
+        <dependencyFromLayerToLayer Id="310ac43a-6a6f-469e-94b3-1ed6753f6e13" direction="Forward">
+          <layerMoniker Id="72d68646-6344-46dd-94e3-49a2f39219d6" />
+        </dependencyFromLayerToLayer>
+      </dependencyToLayers>
+      <references>
+        <reference Id="58bb5d01-d1ad-44a5-b001-9b0330c825d8" name="RSSFeed.Data">
+          <ArtifactNode Label="RSSFeed.Data" Category="CodeSchema_Project" Id="(Assembly=&quot;$(PersonalUri)/visual studio 2013/Projects/RSSFeed/RSSFeed.DataLayer/RSSFeed.Data.csproj&quot;)">
+            <Category Ref="File" />
+          </ArtifactNode>
+          <ExpandedNode Id="(Assembly=RSSFeed.Data)" Label="RSSFeed.Data.dll" Category="CodeSchema_Assembly">
+            <Category Ref="FileSystem.Category.FileOfType.dll" />
+            <LinkCategory Ref="Produces" />
+            <LinkCategory Ref="Represents" />
+          </ExpandedNode>
+        </reference>
+      </references>
+    </layer>
+    <layer Id="72d68646-6344-46dd-94e3-49a2f39219d6" name="RSSFeed.Domain">
+      <references>
+        <reference Id="9225338c-4258-4473-b20f-4bc7a604c741" name="RSSFeed.Domain">
+          <ArtifactNode Label="RSSFeed.Domain" Category="CodeSchema_Project" Id="(Assembly=&quot;$(PersonalUri)/visual studio 2013/Projects/RSSFeed/RSSFeed.Domain/RSSFeed.Domain.csproj&quot;)">
+            <Category Ref="File" />
+          </ArtifactNode>
+          <ExpandedNode Id="(Assembly=RSSFeed.Domain)" Label="RSSFeed.Domain.dll" Category="CodeSchema_Assembly">
+            <Category Ref="FileSystem.Category.FileOfType.dll" />
+            <LinkCategory Ref="Produces" />
+            <LinkCategory Ref="Represents" />
+          </ExpandedNode>
+        </reference>
+      </references>
+    </layer>
+  </layers>
+</layerModel>

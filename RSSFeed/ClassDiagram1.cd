@@ -1,0 +1,199 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="RSSFeed.WebUI.ActionResults.XmlResult&lt;T&gt;">
+    <Position X="27.5" Y="17.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAQAAA=</HashCode>
+      <FileName>ActionResults\XmlResult.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RSSFeed.BundleConfig">
+    <Position X="29.25" Y="17.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>App_Start\BundleConfig.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RSSFeed.FilterConfig">
+    <Position X="30.75" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>App_Start\FilterConfig.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RSSFeed.RouteConfig">
+    <Position X="26" Y="20" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>App_Start\RouteConfig.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RSSFeed.Startup">
+    <Position X="20.5" Y="21.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAgAAAAAAAAAA=</HashCode>
+      <FileName>App_Start\Startup.Auth.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RSSFeed.WebUI.Controllers.AccountController">
+    <Position X="18.5" Y="12" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="RSSFeed.WebUI.Controllers.AccountController.ManageMessageId" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Controllers\AccountController.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Class Name="RSSFeed.WebUI.Controllers.AccountController.ChallengeResult" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Controllers\AccountController.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAACAQCAAAgABAAEAEgEAAAABICIAAEAVAAQkAAA=</HashCode>
+      <FileName>Controllers\AccountController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RSSFeed.WebUI.Controllers.ChannelController">
+    <Position X="34" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIABAAAQAgAIAAAAAAEAAEACAAEIAAAAAAA=</HashCode>
+      <FileName>Controllers\ChannelController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RSSFeed.WebUI.Controllers.FeedReaderController">
+    <Position X="26" Y="12" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAABAAAQAgAAAAAAAAEAAEACAAEIAAAAAAA=</HashCode>
+      <FileName>Controllers\FeedReaderController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RSSFeed.WebUI.Controllers.FileController">
+    <Position X="32" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAAAAAAAAAAAAIAAAABAAAAAAQAACEAA=</HashCode>
+      <FileName>Controllers\FileController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RSSFeed.WebUI.Controllers.HomeController">
+    <Position X="20.5" Y="12" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAAAEQCgAAAAAAAAAAAAAAAAEAAAAAAAA=</HashCode>
+      <FileName>Controllers\HomeController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RSSFeed.WebUI.Controllers.ItemController">
+    <Position X="30.25" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEgAAAIAgAAAQAgAABAAAgAAIAAAEAAEAAAAAAAA=</HashCode>
+      <FileName>Controllers\ItemController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RSSFeed.WebUI.Controllers.SiteGroupController">
+    <Position X="38" Y="12.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABAAAQAgAAAAAAAAEAAEACAAEAAAAAAAA=</HashCode>
+      <FileName>Controllers\SiteGroupController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RSSFeed.WebUI.Controllers.SitesController">
+    <Position X="36" Y="12.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEgAAAIAhAAARAgAABAAAAAEAAEACAAEAAAAAAAI=</HashCode>
+      <FileName>Controllers\SitesController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RSSFeed.WebUI.Controllers.TreeController">
+    <Position X="28.5" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAEgAAAIAgAAAAAhAAEAQAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>Controllers\TreeController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RSSFeed.WebUI.MvcApplication">
+    <Position X="27.75" Y="20" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAA=</HashCode>
+      <FileName>Global.asax.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RSSFeed.Models.ExternalLoginConfirmationViewModel">
+    <Position X="21.75" Y="9.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Models\AccountViewModels.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RSSFeed.Models.ManageUserViewModel">
+    <Position X="15" Y="17" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAABAAAAAAAEAAAAAAAAAAAAAAIAA=</HashCode>
+      <FileName>Models\AccountViewModels.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RSSFeed.Models.LoginViewModel">
+    <Position X="25.75" Y="17.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAQAAAAAgAAA=</HashCode>
+      <FileName>Models\AccountViewModels.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RSSFeed.Models.RegisterViewModel">
+    <Position X="18.5" Y="21" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAQAAAAAAIAA=</HashCode>
+      <FileName>Models\AccountViewModels.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RSSFeed.Models.ApplicationUser">
+    <Position X="21.25" Y="18" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\IdentityModels.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RSSFeed.Models.ApplicationDbContext">
+    <Position X="18.5" Y="9.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\IdentityModels.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RSSFeed.WebUI.ViewModel.NewUrlViewModel">
+    <Position X="18" Y="19.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAA=</HashCode>
+      <FileName>ViewModel\ChannelViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RSSFeed.WebUI.ViewModel.SiteViewModel" BaseTypeListCollapsed="true">
+    <Position X="16.25" Y="20.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABAAAAAAAAAAAAAAAAAAgAAgAAAAAAAAA=</HashCode>
+      <FileName>ViewModel\ChannelViewModel.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="RSSFeed.WebUI.ViewModel.ChannelViewModel" BaseTypeListCollapsed="true">
+    <Position X="14.5" Y="12.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABAAAAAAAAAAAAAAAAAAgAAgAAAAAAAAA=</HashCode>
+      <FileName>ViewModel\ChannelViewModel.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="System.Web.Mvc.Controller" Collapsed="true">
+    <Position X="27.25" Y="10.5" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="RSSFeed.Domain.Channel">
+    <Position X="16.75" Y="12.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="RSSFeed.Domain.Site" Collapsed="true">
+    <Position X="16.25" Y="19.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

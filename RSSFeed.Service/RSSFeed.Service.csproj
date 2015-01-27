@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{AFFE9580-F346-4A64-8F95-088B84F170ED}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>RSSFeed.Service</RootNamespace>
+    <AssemblyName>RSSFeed.Service</AssemblyName>
+    <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework">
+      <HintPath>..\packages\EntityFramework.6.1.1\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="HtmlAgilityPack">
+      <HintPath>..\packages\HtmlAgilityPack.1.4.9\lib\Net45\HtmlAgilityPack.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Mvc, Version=5.2.2.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Microsoft.AspNet.Mvc.5.2.2\lib\net45\System.Web.Mvc.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Interface\CacheService.cs" />
+    <Compile Include="Interface\EfNewSiteService.cs" />
+    <Compile Include="Interface\EfSyndicationFeed.cs" />
+    <Compile Include="Interface\FileService.cs" />
+    <Compile Include="Interface\ICache.cs" />
+    <Compile Include="Interface\IChannelService.cs" />
+    <Compile Include="Interface\IExtraSiteService.cs" />
+    <Compile Include="Interface\IFile.cs" />
+    <Compile Include="Interface\IGroupService.cs" />
+    <Compile Include="Interface\IJsTree.cs" />
+    <Compile Include="Interface\EfChannelService.cs" />
+    <Compile Include="Interface\EfGroupService.cs" />
+    <Compile Include="Interface\EfItemService.cs" />
+    <Compile Include="Interface\EfJsTree.cs" />
+    <Compile Include="Interface\EfSiteService.cs" />
+    <Compile Include="Interface\IMapService.cs" />
+    <Compile Include="Interface\INewSiteService.cs" />
+    <Compile Include="Interface\IOpml.cs" />
+    <Compile Include="Interface\IRepository.cs" />
+    <Compile Include="Interface\IItemService.cs" />
+    <Compile Include="Interface\ISiteService.cs" />
+    <Compile Include="Interface\ISyndicationFeed.cs" />
+    <Compile Include="Interface\IValidationDictionary.cs" />
+    <Compile Include="Interface\IWebScaper.cs" />
+    <Compile Include="Interface\ModelStateWrapper.cs" />
+    <Compile Include="Interface\OpmlService.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\RSSFeed.DataLayer\RSSFeed.Data.csproj">
+      <Project>{8309f306-415f-4b9d-9741-f30ea2db8a16}</Project>
+      <Name>RSSFeed.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\RSSFeed.Domain\RSSFeed.Domain.csproj">
+      <Project>{c27c4e50-9c3d-4a6f-b59d-7c7ebc54e100}</Project>
+      <Name>RSSFeed.Domain</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<activityRootModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/SimpleShapesModel" dslVersion="1.0.0.0" Id="72e73c3e-62d2-4bfe-9112-13c5ca76275a" name="BrowseFeedList" linkedPackageId="0545d1a6-940d-40d4-a2eb-e7d4cba67930" xmlns="http://schemas.microsoft.com/VisualStudio/TeamArchitect/ActivityDesigner">
+  <profileInstances>
+    <packageHasProfileInstances Id="52d46285-4bfa-47bd-a3ab-2adb2abc890f">
+      <profileInstance Id="a4af1d38-a1a3-47a5-b05e-7b93cf59862b" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="9f25e8a6-defa-4ee7-9b58-99ee80441dcd">
+      <profileInstance Id="9ec684cb-f87f-42c9-bab6-f78d4c0bf6c7" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="3dc13d6c-50b5-4821-914f-e0e9e61a3d6b">
+      <profileInstance Id="fcbd1804-d1e3-49ec-b582-3c6589520850" name="CSharpProfile">
+        <elementDefinition Id="75b4a769-3332-4695-8768-d9b0c236725e" />
+      </profileInstance>
+      <elementDefinition Id="4e8aa140-4a1b-4921-b52e-e3c1a60363ab" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <activityRootModelHasActivity>
+      <activity Id="d85bed44-d54e-4696-b76e-71d349b6fdea" name="BrowseFeedList" isAbstract="false" isLeaf="false" isActiveClass="false" isReentrant="false" isReadOnly="false" isSingleExecution="false">
+        <elementDefinition Id="f60154f3-7cab-4de8-9913-5569979e4808" />
+        <nodes>
+          <initialNode Id="c28a5795-d8b0-47d7-a80e-82bf96095b2c" name="Initial1" isLeaf="false">
+            <elementDefinition Id="06984985-9feb-4372-9155-bedaff27c2c0" />
+            <flowNodeTargets>
+              <controlFlow Id="1b8b3faa-a5df-469a-8dbd-736e1d5f85e7" isLeaf="false">
+                <opaqueActionMoniker Id="682252d8-ae9f-4e84-a507-ddd24ccd501b" LastKnownName="کاربر لیست خوراک ها را در خواست می دهد" />
+                <elementDefinition Id="897aa007-3809-4fe0-9210-a6faa1113a8c" />
+              </controlFlow>
+            </flowNodeTargets>
+          </initialNode>
+          <opaqueAction Id="682252d8-ae9f-4e84-a507-ddd24ccd501b" name="کاربر لیست خوراک ها را در خواست می دهد" isLeaf="false">
+            <elementDefinition Id="26d3527d-9598-4376-9c00-f03b0aee8cea" />
+            <flowNodeTargets>
+              <controlFlow Id="a368c230-880b-4867-835d-dd58d6d2407e" isLeaf="false">
+                <opaqueActionMoniker Id="ddb26d88-9115-4c56-8deb-ece51ecacd1f" LastKnownName="سیستم فرم را نمایش میدهد" />
+                <elementDefinition Id="2be37db1-4e60-4467-92e8-f8c5452a01a9" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction Id="ddb26d88-9115-4c56-8deb-ece51ecacd1f" name="سیستم فرم را نمایش میدهد" isLeaf="false">
+            <elementDefinition Id="3fc6d0f3-74d0-432a-a8c2-262d9169475b" />
+            <flowNodeTargets>
+              <controlFlow Id="887c3f1f-1a61-4b5f-9b0b-adc9f8ab392e" isLeaf="false">
+                <activityFinalNodeMoniker Id="42b13bce-c5a6-401a-805e-7650e7e3e185" LastKnownName="ActivityFinal1" />
+                <elementDefinition Id="3d9b15cd-8360-4262-9fb3-2a4ccfea752d" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <activityFinalNode Id="42b13bce-c5a6-401a-805e-7650e7e3e185" name="ActivityFinal1" isLeaf="false">
+            <elementDefinition Id="a5db45c8-6737-4a9e-8e70-366dd5efd94b" />
+          </activityFinalNode>
+        </nodes>
+      </activity>
+    </activityRootModelHasActivity>
+  </packagedElements>
+  <package Id="0545d1a6-940d-40d4-a2eb-e7d4cba67930" name="FeedReader">
+    <elementDefinition Id="53a40116-cfad-4337-9abb-53b36ed80249" />
+  </package>
+</activityRootModel>

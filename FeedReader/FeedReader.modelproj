@@ -1,0 +1,428 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{d14a630a-2db1-4d6e-9fa2-5523a728ee3e}</ProjectGuid>
+    <ArchitectureToolsVersion>2.0.0.0</ArchitectureToolsVersion>
+    <Name>FeedReader</Name>
+    <RootNamespace>FeedReader</RootNamespace>
+    <SccProjectName>SAK</SccProjectName>
+    <SccProvider>SAK</SccProvider>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccLocalPath>SAK</SccLocalPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(VSToolsPath)\ArchitectureTools\Microsoft.VisualStudio.TeamArchitect.ModelingProject.targets" Condition="'$(VSToolsPath)' != ''" />
+  <ItemGroup>
+    <Content Include="ActivityDiagram\BrowseFeedList.activitydiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ActivityDiagram\BrowseFeedList.activitydiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>ActivityDiagram\BrowseFeedList.activitydiagram</DependentUpon>
+    </Content>
+    <Content Include="ActivityDiagram\DeleteFavoriteFeed.activitydiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ActivityDiagram\DeleteFavoriteFeed.activitydiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>ActivityDiagram\DeleteFavoriteFeed.activitydiagram</DependentUpon>
+    </Content>
+    <Content Include="ActivityDiagram\DownloadOPML.activitydiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ActivityDiagram\DownloadOPML.activitydiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>ActivityDiagram\DownloadOPML.activitydiagram</DependentUpon>
+    </Content>
+    <Content Include="ActivityDiagram\FavoriteFeeds.activitydiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ActivityDiagram\FavoriteFeeds.activitydiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>ActivityDiagram\FavoriteFeeds.activitydiagram</DependentUpon>
+    </Content>
+    <Content Include="ActivityDiagram\LoginActivityDiagram.activitydiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ActivityDiagram\LoginActivityDiagram.activitydiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>ActivityDiagram\LoginActivityDiagram.activitydiagram</DependentUpon>
+    </Content>
+    <Content Include="ActivityDiagram\LogOut.activitydiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ActivityDiagram\LogOut.activitydiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>ActivityDiagram\LogOut.activitydiagram</DependentUpon>
+    </Content>
+    <Content Include="ActivityDiagram\New Feed.activitydiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ActivityDiagram\New Feed.activitydiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>ActivityDiagram\New Feed.activitydiagram</DependentUpon>
+    </Content>
+    <Content Include="ActivityDiagram\Register.activitydiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ActivityDiagram\Register.activitydiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>ActivityDiagram\Register.activitydiagram</DependentUpon>
+    </Content>
+    <Content Include="ActivityDiagram\Reset Password.activitydiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ActivityDiagram\Reset Password.activitydiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>ActivityDiagram\Reset Password.activitydiagram</DependentUpon>
+    </Content>
+    <Content Include="ActivityDiagram\UploadOPML.activitydiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ActivityDiagram\UploadOPML.activitydiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>ActivityDiagram\UploadOPML.activitydiagram</DependentUpon>
+    </Content>
+    <Content Include="ClassDiagram\AllInOne.classdiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ClassDiagram\AllInOne.classdiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>ClassDiagram\AllInOne.classdiagram</DependentUpon>
+    </Content>
+    <Content Include="ClassDiagram\EntityClassDiagram.classdiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ClassDiagram\EntityClassDiagram.classdiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>ClassDiagram\EntityClassDiagram.classdiagram</DependentUpon>
+    </Content>
+    <Content Include="ClassDiagram\JSTree.classdiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ClassDiagram\JSTree.classdiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>ClassDiagram\JSTree.classdiagram</DependentUpon>
+    </Content>
+    <Content Include="ClassDiagram\OPMLClassDiagram.classdiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ClassDiagram\OPMLClassDiagram.classdiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>ClassDiagram\OPMLClassDiagram.classdiagram</DependentUpon>
+    </Content>
+    <Content Include="ClassDiagram\ServiceLayerClassDiagram.classdiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ClassDiagram\ServiceLayerClassDiagram.classdiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>ClassDiagram\ServiceLayerClassDiagram.classdiagram</DependentUpon>
+    </Content>
+    <Content Include="ClassDiagram\ViewModelClassDiagram.classdiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ClassDiagram\ViewModelClassDiagram.classdiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>ClassDiagram\ViewModelClassDiagram.classdiagram</DependentUpon>
+    </Content>
+    <Content Include="ComponentDiagram\UMLComponentDiagram1.componentdiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ComponentDiagram\UMLComponentDiagram1.componentdiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>ComponentDiagram\UMLComponentDiagram1.componentdiagram</DependentUpon>
+    </Content>
+    <Content Include="ModelDefinition\Package10_1838.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package1_1819.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package1_1829.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package1_1836.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package1_1838.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package1_1840.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package1_1842.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package2_1819.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package2_1829.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package2_1836.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package2_1838.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package2_1842.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package3_1819.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package3_1829.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package3_1836.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package3_1838.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package3_1842.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package4_1819.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package4_1836.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package4_1838.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package4_1842.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package5_1819.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package5_1838.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package6_1819.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package6_1838.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package7_1819.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package7_1838.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package8_1819.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package8_1838.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package9_1838.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package_1819.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package_1829.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package_1830.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package_1836.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package_1838.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package_1840.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package_1842.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="sequencediagram\AccountController_Login.sequencediagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="sequencediagram\AccountController_Login.sequencediagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>sequencediagram\AccountController_Login.sequencediagram</DependentUpon>
+    </Content>
+    <Content Include="sequencediagram\AccountController_Manage.sequencediagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="sequencediagram\AccountController_Manage.sequencediagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>sequencediagram\AccountController_Manage.sequencediagram</DependentUpon>
+    </Content>
+    <Content Include="sequencediagram\AccountController_Register.sequencediagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="sequencediagram\AccountController_Register.sequencediagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>sequencediagram\AccountController_Register.sequencediagram</DependentUpon>
+    </Content>
+    <Content Include="sequencediagram\AccountController_RemoveAccountList.sequencediagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="sequencediagram\AccountController_RemoveAccountList.sequencediagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>sequencediagram\AccountController_RemoveAccountList.sequencediagram</DependentUpon>
+    </Content>
+    <Content Include="sequencediagram\FeedReaderController_Index.sequencediagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="sequencediagram\FeedReaderController_Index.sequencediagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>sequencediagram\FeedReaderController_Index.sequencediagram</DependentUpon>
+    </Content>
+    <Content Include="sequencediagram\FileController_DownloadOpml.sequencediagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="sequencediagram\FileController_DownloadOpml.sequencediagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>sequencediagram\FileController_DownloadOpml.sequencediagram</DependentUpon>
+    </Content>
+    <Content Include="sequencediagram\FileController_UploadFiles.sequencediagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="sequencediagram\FileController_UploadFiles.sequencediagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>sequencediagram\FileController_UploadFiles.sequencediagram</DependentUpon>
+    </Content>
+    <Content Include="sequencediagram\SitesController_Create.sequencediagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="sequencediagram\SitesController_Create.sequencediagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>sequencediagram\SitesController_Create.sequencediagram</DependentUpon>
+    </Content>
+    <Content Include="sequencediagram\SitesController_Delete.sequencediagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="sequencediagram\SitesController_Delete.sequencediagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>sequencediagram\SitesController_Delete.sequencediagram</DependentUpon>
+    </Content>
+    <Content Include="sequencediagram\SitesController_Edit.sequencediagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="sequencediagram\SitesController_Edit.sequencediagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>sequencediagram\SitesController_Edit.sequencediagram</DependentUpon>
+    </Content>
+    <Content Include="sequencediagram\SitesController_List.sequencediagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="sequencediagram\SitesController_List.sequencediagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>sequencediagram\SitesController_List.sequencediagram</DependentUpon>
+    </Content>
+    <Content Include="sequencediagram\SitesController_NewUrl.sequencediagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="sequencediagram\SitesController_NewUrl.sequencediagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>sequencediagram\SitesController_NewUrl.sequencediagram</DependentUpon>
+    </Content>
+    <Content Include="sequencediagram\SitesController_Remove.sequencediagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="sequencediagram\SitesController_Remove.sequencediagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>sequencediagram\SitesController_Remove.sequencediagram</DependentUpon>
+    </Content>
+    <Content Include="sequencediagram\TreeController_GetAjaxList.sequencediagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="sequencediagram\TreeController_GetAjaxList.sequencediagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>sequencediagram\TreeController_GetAjaxList.sequencediagram</DependentUpon>
+    </Content>
+    <Content Include="sequencediagram\TreeController_GetMoreList.sequencediagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="sequencediagram\TreeController_GetMoreList.sequencediagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>sequencediagram\TreeController_GetMoreList.sequencediagram</DependentUpon>
+    </Content>
+    <Content Include="sequencediagram\TreeController_GetTreeJson.sequencediagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="sequencediagram\TreeController_GetTreeJson.sequencediagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>sequencediagram\TreeController_GetTreeJson.sequencediagram</DependentUpon>
+    </Content>
+    <Content Include="UseCaseDiagram\AllInOneUseCaseDiagram.usecasediagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="UseCaseDiagram\AllInOneUseCaseDiagram.usecasediagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>UseCaseDiagram\AllInOneUseCaseDiagram.usecasediagram</DependentUpon>
+    </Content>
+    <Content Include="UseCaseDiagram\LoginDiagram.usecasediagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="UseCaseDiagram\LoginDiagram.usecasediagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>UseCaseDiagram\LoginDiagram.usecasediagram</DependentUpon>
+    </Content>
+    <Folder Include="ModelDefinition\" />
+    <Content Include="ModelDefinition\FeedReader.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Folder Include="LayerDiagram" />
+    <Folder Include="ClassDiagram" />
+    <Folder Include="ComponentDiagram" />
+    <Folder Include="ActivityDiagram" />
+    <Folder Include="DeploymentDiagram" />
+    <Folder Include="UseCaseDiagram" />
+    <Folder Include="sequencediagram" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\RSSFeed.DataLayer\RSSFeed.Data.csproj">
+      <Name>RSSFeed.Data</Name>
+      <Project>{8309f306-415f-4b9d-9741-f30ea2db8a16}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\RSSFeed.Domain\RSSFeed.Domain.csproj">
+      <Name>RSSFeed.Domain</Name>
+      <Project>{c27c4e50-9c3d-4a6f-b59d-7c7ebc54e100}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\RSSFeed.Service\RSSFeed.Service.csproj">
+      <Name>RSSFeed.Service</Name>
+      <Project>{affe9580-f346-4a64-8f95-088b84f170ed}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\RSSFeed\RSSFeed.WebUI.csproj">
+      <Name>RSSFeed.WebUI</Name>
+      <Project>{53e90a61-90c3-447b-9fa8-eb53d855fcf1}</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Validate Include="LayerDiagram\LayerDiagram1.layerdiagram">
+      <SubType>Content</SubType>
+    </Validate>
+    <Validate Include="LayerDiagram\LayerDiagram1.layerdiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>LayerDiagram\LayerDiagram1.layerdiagram</DependentUpon>
+    </Validate>
+    <Validate Include="LayerDiagram\LayerDiagram1.layerdiagram.suppressions">
+      <SubType>Content</SubType>
+      <DependentUpon>LayerDiagram\LayerDiagram1.layerdiagram</DependentUpon>
+    </Validate>
+  </ItemGroup>
+</Project>

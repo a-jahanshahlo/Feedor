@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<activityRootModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/SimpleShapesModel" dslVersion="1.0.0.0" Id="53022c32-89b9-49f1-95fa-d855565d57d1" name="DownloadOPML" linkedPackageId="c46cd91f-d9f1-4712-bda5-7f7b3057e484" xmlns="http://schemas.microsoft.com/VisualStudio/TeamArchitect/ActivityDesigner">
+  <profileInstances>
+    <packageHasProfileInstances Id="cc1b75cc-55ca-4b0f-92df-9e12322561f8">
+      <profileInstance Id="de202665-cd32-4f85-ae91-a1567bd79730" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="a3f97dae-0efb-4cfc-a68a-66199970ea71">
+      <profileInstance Id="b7286c9a-795b-47e3-a5c5-60eb42f02fa3" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="d5b2b60d-898f-416f-bd88-1fc55df47235">
+      <profileInstance Id="d55f86b9-ada1-472d-b9ef-b3672428e58c" name="CSharpProfile">
+        <elementDefinition Id="75b4a769-3332-4695-8768-d9b0c236725e" />
+      </profileInstance>
+      <elementDefinition Id="4e8aa140-4a1b-4921-b52e-e3c1a60363ab" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <activityRootModelHasActivity>
+      <activity Id="97170119-ba37-4dc4-a73e-e98d97365c3b" name="DownloadOPML" isAbstract="false" isLeaf="false" isActiveClass="false" isReentrant="false" isReadOnly="false" isSingleExecution="false">
+        <elementDefinition Id="12cba066-96b9-4b32-aed2-a1b5d5e79794" />
+        <nodes>
+          <initialNode Id="eb0d8652-0368-446a-b2d4-c636ef1db179" name="Initial1" isLeaf="false">
+            <elementDefinition Id="57d05e64-04be-493c-a5ba-160df4e02cda" />
+            <flowNodeTargets>
+              <controlFlow Id="19505024-1687-49a9-b2ca-55166bd34460" isLeaf="false">
+                <opaqueActionMoniker Id="49cde12d-b46a-4ac8-9595-ee4553d0ff0b" LastKnownName="کاربر  فایل را در خواست می دهد" />
+                <elementDefinition Id="ad271bcf-41c1-48c4-857f-167e12d4dc9d" />
+              </controlFlow>
+            </flowNodeTargets>
+          </initialNode>
+          <opaqueAction Id="49cde12d-b46a-4ac8-9595-ee4553d0ff0b" name="کاربر  فایل را در خواست می دهد" isLeaf="false">
+            <elementDefinition Id="ff7261e8-7e2b-472d-9bd3-0a43e5c3942b" />
+            <flowNodeTargets>
+              <controlFlow Id="e4ff0af3-a56f-4550-90ed-8665fb29b145" isLeaf="false">
+                <opaqueActionMoniker Id="9e219eb4-a0d1-442e-923b-a6dabda2067e" LastKnownName="سیستم لیست خوراک های کاربر را بصورت یک فایل OPML ایجاد می کند" />
+                <elementDefinition Id="f29f196d-0c1b-4d0a-906b-0157df9e6112" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction Id="9e219eb4-a0d1-442e-923b-a6dabda2067e" name="سیستم لیست خوراک های کاربر را بصورت یک فایل OPML ایجاد می کند" isLeaf="false">
+            <elementDefinition Id="8b224b8e-c6a8-475f-8669-9527b25956c1" />
+            <flowNodeTargets>
+              <controlFlow Id="3b59511c-37ae-4cbb-8c9d-fd39fdf534d2" isLeaf="false">
+                <opaqueActionMoniker Id="d54ae77f-62be-4d00-90f3-47bf382e515e" LastKnownName="سیستم فایل را به کاربر تحویل می دهد" />
+                <elementDefinition Id="ec4cd271-7267-4fb0-af06-0db622c14527" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction Id="d54ae77f-62be-4d00-90f3-47bf382e515e" name="سیستم فایل را به کاربر تحویل می دهد" isLeaf="false">
+            <elementDefinition Id="723bdf30-e9e1-4ca4-80ae-5dbff732eb30" />
+            <flowNodeTargets>
+              <controlFlow Id="cf6d115d-e825-41ff-8c2f-4010a4e4330f" isLeaf="false">
+                <activityFinalNodeMoniker Id="48ba426d-ebb2-4d47-8f4f-1ded99eb82ab" LastKnownName="ActivityFinal1" />
+                <elementDefinition Id="cd91a3b3-015c-47c3-a271-8ab325030304" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <activityFinalNode Id="48ba426d-ebb2-4d47-8f4f-1ded99eb82ab" name="ActivityFinal1" isLeaf="false">
+            <elementDefinition Id="88f17e5a-40bb-4140-9c18-05cb1b939d0c" />
+          </activityFinalNode>
+        </nodes>
+      </activity>
+    </activityRootModelHasActivity>
+  </packagedElements>
+  <package Id="c46cd91f-d9f1-4712-bda5-7f7b3057e484" name="FeedReader">
+    <elementDefinition Id="53a40116-cfad-4337-9abb-53b36ed80249" />
+  </package>
+</activityRootModel>

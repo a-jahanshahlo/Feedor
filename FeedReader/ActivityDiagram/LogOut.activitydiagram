@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<activityRootModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/SimpleShapesModel" dslVersion="1.0.0.0" Id="08b2bc54-0429-488f-9910-c87339338c0d" name="LogOut" linkedPackageId="cf15dfe7-6eb1-49b2-9cae-3713f92d5c99" xmlns="http://schemas.microsoft.com/VisualStudio/TeamArchitect/ActivityDesigner">
+  <profileInstances>
+    <packageHasProfileInstances Id="2feb5a79-117e-410d-97cd-da0aba6402e6">
+      <profileInstance Id="b0e0671a-0b01-4e0c-8f9d-fa1abf5548f7" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="1db2056a-809b-425b-b36f-970bd0077bf0">
+      <profileInstance Id="4a260705-0cfb-4c2d-a029-df16cbf3a67f" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="9b8f09b7-bfc4-49e1-979f-727b31725cdd">
+      <profileInstance Id="1c50ca01-334e-40b2-91c6-4152ec5089da" name="CSharpProfile">
+        <elementDefinition Id="75b4a769-3332-4695-8768-d9b0c236725e" />
+      </profileInstance>
+      <elementDefinition Id="4e8aa140-4a1b-4921-b52e-e3c1a60363ab" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <activityRootModelHasActivity>
+      <activity Id="2cba1ac2-ce8b-47b8-a0e0-21888ae5da1b" name="LogOut" isAbstract="false" isLeaf="false" isActiveClass="false" isReentrant="false" isReadOnly="false" isSingleExecution="false">
+        <elementDefinition Id="92d8eeea-aaa3-4f24-bfb8-8d9ae2f658bd" />
+        <nodes>
+          <initialNode Id="bb384d82-a1cb-4791-8f45-3cee6b1b82ee" name="Initial1" isLeaf="false">
+            <elementDefinition Id="73695415-c13f-4434-b606-fae97e7dd012" />
+            <flowNodeTargets>
+              <controlFlow Id="2f31c5b2-d155-41c2-8952-c955d653e0b5" isLeaf="false">
+                <opaqueActionMoniker Id="acd12ae6-df2b-4273-bd49-bad5b48b3191" LastKnownName="کاربر بر روی دکمه خروج از سیستم کلیک می کند" />
+                <elementDefinition Id="ee747765-4a77-404d-821b-274c80949b9a" />
+              </controlFlow>
+            </flowNodeTargets>
+          </initialNode>
+          <opaqueAction Id="acd12ae6-df2b-4273-bd49-bad5b48b3191" name="کاربر بر روی دکمه خروج از سیستم کلیک می کند" isLeaf="false">
+            <elementDefinition Id="51852cdb-dff4-4c51-951d-7cce384d0db4" />
+            <flowNodeTargets>
+              <controlFlow Id="f9bc9eb4-3447-4930-a518-fbab64bb8b5c" isLeaf="false">
+                <opaqueActionMoniker Id="a837ba79-f2ac-4275-9a82-619caed48e8f" LastKnownName="سیستم جلسه کاربر را تمام می" />
+                <elementDefinition Id="b7b4606a-0cb4-4a82-9dce-c84e2bbf29f1" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction Id="430d5c4e-f65d-43df-9182-b38d99c79172" name="کاربر به صفحه اصلی منتقل می شود" isLeaf="false">
+            <elementDefinition Id="c9788432-11ea-423f-8ef9-840099536fd4" />
+            <flowNodeTargets>
+              <controlFlow Id="f1b48cd5-680b-4f3d-a3db-51e94703447e" isLeaf="false">
+                <activityFinalNodeMoniker Id="8b0deb04-9bce-4c8a-a9c9-2f6d8b07c43a" LastKnownName="ActivityFinal2" />
+                <elementDefinition Id="f1410c6b-a828-4d67-a4c5-e4583ecd707e" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction Id="a837ba79-f2ac-4275-9a82-619caed48e8f" name="سیستم جلسه کاربر را تمام می" isLeaf="false">
+            <elementDefinition Id="f46b1556-2255-459f-b93b-1eb01791a0df" />
+            <flowNodeTargets>
+              <controlFlow Id="7d873c85-9cd3-4644-8f9a-6b4cbf101f24" isLeaf="false">
+                <opaqueActionMoniker Id="3a3274ff-68fb-4ae6-b1d1-a3a41a3ec7c5" LastKnownName="همه پردازش های کاربر را لغو می کند" />
+                <elementDefinition Id="db4b3dfd-2626-4c7b-917f-6b6d742d76e8" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction Id="3a3274ff-68fb-4ae6-b1d1-a3a41a3ec7c5" name="همه پردازش های کاربر را لغو می کند" isLeaf="false">
+            <elementDefinition Id="02d74f50-31df-43ce-90df-28a3b0af1b31" />
+            <flowNodeTargets>
+              <controlFlow Id="fc5d6d99-b1ea-4fc6-8d77-378f2333eb6e" isLeaf="false">
+                <opaqueActionMoniker Id="430d5c4e-f65d-43df-9182-b38d99c79172" LastKnownName="کاربر به صفحه اصلی منتقل می شود" />
+                <elementDefinition Id="c72f9f40-63fc-4853-b36b-750a8418a3f2" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <activityFinalNode Id="8b0deb04-9bce-4c8a-a9c9-2f6d8b07c43a" name="ActivityFinal2" isLeaf="false">
+            <elementDefinition Id="66a51298-7f33-4276-ba13-77132c8771a1" />
+          </activityFinalNode>
+        </nodes>
+      </activity>
+    </activityRootModelHasActivity>
+  </packagedElements>
+  <package Id="cf15dfe7-6eb1-49b2-9cae-3713f92d5c99" name="FeedReader">
+    <elementDefinition Id="53a40116-cfad-4337-9abb-53b36ed80249" />
+  </package>
+</activityRootModel>

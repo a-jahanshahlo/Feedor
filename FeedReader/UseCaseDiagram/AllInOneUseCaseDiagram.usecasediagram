@@ -1,0 +1,311 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<useCaseModelRoot xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/SimpleShapesModel" xmlns:dm10="http://schemas.microsoft.com/VisualStudio/TeamArchitect/ActivityDesigner" dslVersion="1.0.0.0" Id="55d05dfa-9306-48fc-ab33-48e9e74ab49b" name="AllInOneUseCaseDiagram" linkedPackageId="d3e3010d-6da5-495d-8b20-ff6a5ad20e99" xmlns="http://schemas.microsoft.com/dsltools/UseCaseModel">
+  <packagedElements>
+    <useCaseModelRootHasTypes>
+      <actor Id="30e112f1-299c-4d50-8aa1-df3ee2b7578a" name="User" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="03b84d3b-030d-4034-937e-a227224e56aa" />
+        <targetEnds>
+          <association Id="5f1300b1-edf2-4b01-8c94-37700c39890b" isDerived="false" sourceEndRoleName="User" targetEndRoleName="Manage Account" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="30150ad4-3058-4afe-a537-093938d64a85" LastKnownName="Manage Account" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="c624adc5-e6d5-42e5-a43f-f1f6875f1e0a" name="User" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="fccc850e-e436-411b-a28e-92b94a11e327" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="81ce7d5f-9405-40a2-87e4-275098e38441" name="Manage Account" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="e061bfb7-34bb-4a9b-90f0-88d28842bbf7" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="8436e16f-f4eb-4da7-91b7-443e4e4913f1" />
+          </association>
+          <association Id="512f7716-f88c-422a-b15e-57eb8c19b2df" isDerived="false" sourceEndRoleName="User" targetEndRoleName="Upload OPMLl" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="682506d8-3743-4da6-8fce-051fccbf498f" LastKnownName="Upload OPML" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="716d737f-b574-4f5c-a220-87676317b248" name="User" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="701519dd-37eb-43b9-8eeb-01b6adde51e3" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="475a52dc-ce2c-43a3-a00a-a171e0b34a46" name="Upload OPMLl" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="7e7a4c76-fd3f-4d1e-806f-4ac1b43ff034" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="1341556a-4e87-4b12-8592-fcb002e76e1b" />
+          </association>
+          <association Id="dc417ab1-64d3-48cd-9d53-1035f78b959d" isDerived="false" sourceEndRoleName="User" targetEndRoleName="Download OPML" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="4e394f76-cf40-4742-bbfb-1d7c5c8aafa3" LastKnownName="Download OPML" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="66e8d8fc-511d-4c47-a435-ba3608b48762" name="User" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="99b1bbaf-7624-46fd-9648-73980685436e" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="1122b5a5-37a4-442d-908a-6bdc49b7bda8" name="Download OPML" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="125b3c66-5718-4aba-afed-187105ab388b" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="bea2ff55-baf2-4320-a545-30c7f013ad08" />
+          </association>
+          <association Id="2c7ac887-3f8e-45ed-8821-3be5223323b9" isDerived="false" sourceEndRoleName="User" targetEndRoleName="Manage Feeds" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="57e4da6f-de76-41b0-8ca7-e5556a2a7bd7" LastKnownName="Manage Feeds" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="a736694a-c3dd-4604-91cc-a13fbab887b0" name="User" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="200f03cf-d43f-4d47-84f0-18a827c2e0b9" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="edef5401-ab94-4412-b6ef-019fc35d7ceb" name="Manage Feeds" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="26fc4d29-3197-4607-a398-ee94a3fe31e7" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="81a3bd67-e184-470d-95a1-146b2ac9511e" />
+          </association>
+          <association Id="c9a9e0b2-b14a-4754-9ad9-1072e3d697e7" isDerived="false" sourceEndRoleName="User" targetEndRoleName="Favorite Feeds" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="675dfb4c-00ea-4932-b4f5-3be61d4e319c" LastKnownName="Manage Favorites " />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="a51de1cb-74aa-4441-936b-952a9bf8c89e" name="User" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="b032ef39-cda5-4936-a326-d2a2420c607c" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="23b12ed7-741c-4d3b-946a-08934209cdc1" name="Favorite Feeds" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="60c1c409-75fa-4fb3-89ed-ef943944cc2b" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="3509ee83-c3a3-4106-973d-5f80ac4b15b5" />
+          </association>
+          <association Id="511c4169-5db8-45bd-a45e-cafe0bf41415" isDerived="false" sourceEndRoleName="User" targetEndRoleName="Show Feeds" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="5d89e2c8-8cac-469b-b88a-04bd45508368" LastKnownName="Browse Feeds" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="9e209f78-80a4-409c-bdcd-5f1096902fb1" name="User" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="16db61c8-04f4-4c24-b0d9-c80a660654e1" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="3f29f2ba-3a6f-40ad-bfdc-341bb8defec5" name="Show Feeds" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="211487df-0942-4850-b044-214a7b7fa6a8" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="ea035618-5743-4814-b4e2-44d300227b26" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="2d364a71-3266-4568-a025-22ee923c14e8" name="Login" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="58c6eb85-c900-4fad-adf9-e566d885e8a8" />
+        <extendedCases>
+          <extend Id="9844c886-e682-478d-b03a-77d2444595aa">
+            <useCaseMoniker Id="aa13d4fc-d154-4c1c-8637-173e51b59a90" LastKnownName="External Service" />
+            <elementDefinition Id="c97d9643-25eb-46ab-8581-c5ba4271f4b2" />
+          </extend>
+        </extendedCases>
+        <additions>
+          <include Id="89ea40aa-db57-4b42-b7cf-094f255d97a3">
+            <useCaseMoniker Id="30150ad4-3058-4afe-a537-093938d64a85" LastKnownName="Manage Account" />
+            <elementDefinition Id="29764c74-ee61-4d8d-86b1-f79f14ab679b" />
+          </include>
+        </additions>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="30150ad4-3058-4afe-a537-093938d64a85" name="Manage Account" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="9c57476e-bcd6-4407-93eb-dedcf552ae73" />
+        <extendedCases>
+          <extend Id="cfecc4c5-ea56-435a-86b2-d3012efd987b">
+            <useCaseMoniker Id="1d718ee4-e015-438f-86d5-a41929222a4e" LastKnownName="Reset Password" />
+            <elementDefinition Id="79f932a0-4839-4b41-b17b-4a9b5cfbb548" />
+          </extend>
+          <extend Id="91b87556-2c25-4352-a60d-66e86479e299">
+            <useCaseMoniker Id="8cb182fb-c5e1-460a-90b1-42048645eb70" LastKnownName="LogOut" />
+            <elementDefinition Id="59a91960-3cfc-4eba-8d60-2cecc12b51be" />
+          </extend>
+        </extendedCases>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="b98dfa03-9b6d-45d3-a65c-69a5db56428a" name="Add Feed" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="76ce46bb-1d24-4768-a509-452db6da03ab" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="c9a1f0f5-fdfe-4b70-b206-26c66928da06" name="Show Exist Feeds List" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="ab568011-d90c-4324-a638-128f11faf8da" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="682506d8-3743-4da6-8fce-051fccbf498f" name="Upload OPML" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="45db503b-ae01-4397-a80d-e4ccd2a420c6" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="4e394f76-cf40-4742-bbfb-1d7c5c8aafa3" name="Download OPML" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="6056c88c-7fed-4802-a7e0-d0171bdd4bb7" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="b75195ad-38f3-4e77-b140-0bfbd1a93140" name="Delete Feed" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="b75b73e8-90a5-4271-96b5-a241ee946f90" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="57e4da6f-de76-41b0-8ca7-e5556a2a7bd7" name="Manage Feeds" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="82278993-7d52-49e0-97b3-ef9f9750ade0" />
+        <extendedCases>
+          <extend Id="0491adb3-4b97-413a-a578-468e13faad49">
+            <useCaseMoniker Id="b75195ad-38f3-4e77-b140-0bfbd1a93140" LastKnownName="Delete Feed" />
+            <elementDefinition Id="9eeec97f-5928-4a58-9a1b-d2794da94b79" />
+          </extend>
+          <extend Id="fe4fc2c9-031a-4ee6-8d2e-d3beb8bfbcd1">
+            <useCaseMoniker Id="b98dfa03-9b6d-45d3-a65c-69a5db56428a" LastKnownName="Add Feed" />
+            <elementDefinition Id="bc7bd988-e834-4096-807f-24c9f877bacc" />
+          </extend>
+          <extend Id="22bc0ad2-0760-40c4-80cf-fa84f049a6ba">
+            <useCaseMoniker Id="c9a1f0f5-fdfe-4b70-b206-26c66928da06" LastKnownName="Show Exist Feeds List" />
+            <elementDefinition Id="cfc83ad8-9c00-4373-afcc-747978f62b74" />
+          </extend>
+        </extendedCases>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="833cbdc0-97ea-4d6b-b0d2-872868dfe84e" name="Register" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="173a6363-b334-4abb-b583-7db5c7a37f87" />
+        <extendedCases>
+          <extend Id="1fe52a25-c0db-4090-8162-22ee29dbade7">
+            <useCaseMoniker Id="aa13d4fc-d154-4c1c-8637-173e51b59a90" LastKnownName="External Service" />
+            <elementDefinition Id="747957e7-a97b-4df7-9f13-4f0071496e1c" />
+          </extend>
+        </extendedCases>
+        <additions>
+          <include Id="89f533e4-526b-487f-b256-f068164f2d43">
+            <useCaseMoniker Id="30150ad4-3058-4afe-a537-093938d64a85" LastKnownName="Manage Account" />
+            <elementDefinition Id="bbd37cb8-4e5f-49cb-8836-9953c68896bf" />
+          </include>
+        </additions>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="1d718ee4-e015-438f-86d5-a41929222a4e" name="Reset Password" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="6c142790-7a09-4bc5-957f-43fdf61dc798" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="8cb182fb-c5e1-460a-90b1-42048645eb70" name="LogOut" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="9025b6d8-3d90-49ab-8216-7764f93a11b8" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="675dfb4c-00ea-4932-b4f5-3be61d4e319c" name="Manage Favorites " isAbstract="false" isLeaf="false">
+        <elementDefinition Id="9058d171-cf6b-4b6a-9ebf-4c17d162d1ad" />
+        <extendedCases>
+          <extend Id="834fe3b6-0b14-44d5-9ae3-f6febe599e64">
+            <useCaseMoniker Id="fd0004b9-8f08-4c0c-b8c1-0dc4d34b4798" LastKnownName="Add To Favorites" />
+            <elementDefinition Id="8508be5a-18c7-4d2a-83f1-3f163e7841ac" />
+          </extend>
+          <extend Id="306c4c50-7f96-4ef8-9530-fc7ad81a425d">
+            <useCaseMoniker Id="887b20aa-7501-48f8-aaf5-51eb1072de6b" LastKnownName="Delete From Favorites" />
+            <elementDefinition Id="ee76b540-63a6-46b0-a451-39fc71cfb387" />
+          </extend>
+          <extend Id="3a62a714-4b86-48a9-8fca-37a5e8d9b28a">
+            <useCaseMoniker Id="1ace4979-a3b3-40a4-9c93-78adc8f114e7" LastKnownName="Show Favorites" />
+            <elementDefinition Id="baf5eb27-d303-414f-a20f-65cc3f6777ff" />
+          </extend>
+        </extendedCases>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="fd0004b9-8f08-4c0c-b8c1-0dc4d34b4798" name="Add To Favorites" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="ae86ef92-cba4-4460-b30c-3a5a2cdc5540" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="1ace4979-a3b3-40a4-9c93-78adc8f114e7" name="Show Favorites" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="c54717b3-4c5a-4f4f-bad4-16ae6921e71b" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="887b20aa-7501-48f8-aaf5-51eb1072de6b" name="Delete From Favorites" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="1401a817-515d-4419-9f9d-0ad2bf53c275" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="5d89e2c8-8cac-469b-b88a-04bd45508368" name="Browse Feeds" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="f0ed67a6-3442-4303-8823-8ca5ac8275cf" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="902ab07a-f782-4da3-ba2d-c4713e817e44" name="Faceboock" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="29f1b808-8be5-41b2-a701-21c32cf34980" />
+        <generalsInternal>
+          <generalization Id="7b322f43-412c-4dd9-a65a-31fc9c7a60a5" isSubstitutable="false">
+            <useCaseMoniker Id="aa13d4fc-d154-4c1c-8637-173e51b59a90" LastKnownName="External Service" />
+            <elementDefinition Id="2c3ca146-3dab-4fa0-abf1-0dbe2e0c9e5d" />
+          </generalization>
+        </generalsInternal>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="2b8258fd-ddc9-4b87-8282-a3b4a047ed9e" name="Google" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="1f5f9f2c-d941-4b74-a1c9-98270b4df04c" />
+        <generalsInternal>
+          <generalization Id="5e297334-f2f7-4d50-ad9a-575a7fcfc399" isSubstitutable="false">
+            <useCaseMoniker Id="aa13d4fc-d154-4c1c-8637-173e51b59a90" LastKnownName="External Service" />
+            <elementDefinition Id="5a0db2c6-00fc-420e-98a7-e94184322f2a" />
+          </generalization>
+        </generalsInternal>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="5dcc54e1-8f12-4853-a4fa-0303e6d481d8" name="Hotmail" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="1f6dde07-0df2-433f-914a-e3edf9dd54bc" />
+        <generalsInternal>
+          <generalization Id="7a2aa758-e814-45c0-aa02-707b8714e2f9" isSubstitutable="false">
+            <useCaseMoniker Id="aa13d4fc-d154-4c1c-8637-173e51b59a90" LastKnownName="External Service" />
+            <elementDefinition Id="fc8145e5-79fc-4594-911a-a636001e144c" />
+          </generalization>
+        </generalsInternal>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="aa13d4fc-d154-4c1c-8637-173e51b59a90" name="External Service" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="c486e82d-f1e3-48fa-9b54-be6396a2bed1" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+  </packagedElements>
+  <package Id="d3e3010d-6da5-495d-8b20-ff6a5ad20e99" name="FeedReader">
+    <elementDefinition Id="53a40116-cfad-4337-9abb-53b36ed80249" />
+    <profileInstances>
+      <packageHasProfileInstances Id="0a46145e-b3ba-404b-930c-abdae9f99c17">
+        <profileInstance Id="c5015c22-ec56-47b8-93b8-b63783a9b2f8" name="StandardProfileL2">
+          <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+        </profileInstance>
+        <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="6fe1c528-ee8f-4136-831e-e226fedda1ce">
+        <profileInstance Id="1a980eed-1a7f-4f2c-9ff2-b7fbd7cbca64" name="StandardProfileL3">
+          <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+        </profileInstance>
+        <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="5fc1267b-3554-42f6-812e-3958cb3f29a5">
+        <profileInstance Id="712fb99c-1818-42ef-b21b-9287899a72dc" name="CSharpProfile">
+          <elementDefinition Id="75b4a769-3332-4695-8768-d9b0c236725e" />
+        </profileInstance>
+        <elementDefinition Id="4e8aa140-4a1b-4921-b52e-e3c1a60363ab" />
+      </packageHasProfileInstances>
+    </profileInstances>
+  </package>
+</useCaseModelRoot>

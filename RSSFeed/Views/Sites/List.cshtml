@@ -1,0 +1,51 @@
+﻿@using PagedList
+@using PagedList.Mvc
+@using RSSFeed.Domain
+@model IEnumerable<RSSFeed.Domain.Site>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+
+
+<div class="container">
+    <h2>لیست خوراک های من</h2>
+
+    @Html.PagedListPager((IPagedList)Model, page => Url.Action("List", new { page }))
+    <div class="row">
+
+
+
+        @foreach (var item in Model)
+        {
+            foreach (var channel in item.Channels)
+            {
+
+
+                <div class="col-md-11 box2">
+                    <img width="50" height="50" src="@item.SiteUrl/favicon.ico" alt="" class="img-circle boximg">
+                    <h4 class="plantop">
+
+                        @{
+                            Site item1 = item;
+                        }
+                        @Html.DisplayFor(modelItem => item1.SiteName)
+                    </h4>
+                    <p>
+                        @{
+                Channel channel1 = channel;
+                        }
+                        @item1.SiteUrl @channel1.Link
+                    </p>
+                    <ul class="list-inline">
+                        <li><b> تاریخ بروز رسانی: </b> @Html.DisplayFor(modelItem => item.LastUpdatedTime)</li>
+                        <li><a href="@Url.Action("Remove", "Sites", new { id = channel.Id})" class=" btn btn-danger btn-xs">حذف</a></li>
+                    </ul>
+
+                </div>
+            }
+        }
+    </div>
+    @Html.PagedListPager((IPagedList)Model, page => Url.Action("List", new { page }))
+</div>

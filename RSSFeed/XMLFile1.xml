@@ -1,0 +1,377 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+  <channel>
+    <title>‫فید کلی آخرین نظرات، مطالب، اشتراک‌ها و پروژه‌های .NET Tips</title>
+    <link>http://www.dotnettips.info/</link>
+    <description />
+    <language>fa-IR</language>
+    <lastBuildDate>Wed, 31 Dec 2014 12:59:23 +0330</lastBuildDate>
+    <atom:link rel="self" href="http://www.dotnettips.info/rss.xml" />
+    <item>
+      <guid isPermaLink="false">722DBC764B2ACC8FFDA4292CE5DD455AB7F9492E</guid>
+      <link>http://www.dotnettips.info/newsarchive/details/6454?updated=1393-10-10-12-59</link>
+      <author>وحید محمّدطاهری</author>
+      <title>‫کتابخانه PleaseWait | کتابخانه ای برای ایجاد Loading های زیبا</title>
+      <description>&lt;div style='text-align: left; font-family:tahoma; font-size:9pt;' dir='ltr'&gt;&lt;p&gt;&amp;nbsp;PleaseWait is a small Javascript library that shows a beautiful loading page for your SPA while it loads&lt;/p&gt;&lt;/div&gt;</description>
+      <pubDate>Wed, 31 Dec 2014 12:59:23 +0330</pubDate>
+      <atom:updated>2014-12-31T12:59:23+03:30</atom:updated>
+    </item>
+    <item>
+      <guid isPermaLink="false">A9EB426F7D18C31B80BD8ADD01EE2A7EECD5A9E0</guid>
+      <link>http://www.dotnettips.info/courses/topic/4/d990f71f-845e-4d55-b021-e66195ff4b3f?updated=1393-10-10-12-10#comment-436</link>
+      <author>وحید نصیری</author>
+      <title>‫پاسخ به: استفاده از AOP Interceptors برای حذف کدهای تکراری کش کردن اطلاعات در لایه سرویس برنامه</title>
+      <description>&lt;div style='text-align: right; font-family:tahoma; font-size:9pt;' dir='rtl'&gt;به همین جهت CacheMethodAttribute  تعریف شد و وجود آن توسط (if (cacheMethodAttribute == null در ابتدای کار Interceptor بررسی می‌شود.     &lt;/div&gt;</description>
+      <pubDate>Wed, 31 Dec 2014 12:10:21 +0330</pubDate>
+      <atom:updated>2014-12-31T12:10:21+03:30</atom:updated>
+    </item>
+    <item>
+      <guid isPermaLink="false">97F37071E6CF862152DFECB0048B6F460A1CC854</guid>
+      <link>http://www.dotnettips.info/courses/topic/4/d990f71f-845e-4d55-b021-e66195ff4b3f?updated=1393-10-10-11-16#comment-435</link>
+      <author>ایلیا اکبری فرد</author>
+      <title>‫پاسخ به: استفاده از AOP Interceptors برای حذف کدهای تکراری کش کردن اطلاعات در لایه سرویس برنامه</title>
+      <description>&lt;div style='text-align: right; font-family:tahoma; font-size:9pt;' dir='rtl'&gt; با سلام.   با معرفی Interceptor به طریق بالا ، هنگام فراخوانی هریک از متدهای کلاس ،متد Intercept نیز فراخوانی میگردد. اگر Interceptor  ما فقط بر روی برخی از متدها تعریف شده باشد ، راه حل چیست؟ ...&lt;/div&gt;</description>
+      <pubDate>Wed, 31 Dec 2014 11:16:22 +0330</pubDate>
+      <atom:updated>2014-12-31T11:16:22+03:30</atom:updated>
+    </item>
+    <item>
+      <guid isPermaLink="false">CF615764548C4E26631AA0654109EA9D84A4AAD7</guid>
+      <link>http://www.dotnettips.info/comingsoon?updated=1393-10-10-11-06</link>
+      <author>سیروان عفیفی</author>
+      <title>‫به زودی: نمایش بلادرنگ اعلامی به تمام کاربران در هنگام درج یک رکورد جدید به صورت Notification</title>
+      <description>&lt;div style='text-align: right; font-family:tahoma; font-size:9pt;' dir='rtl'&gt;به زودی ...&lt;/div&gt;</description>
+      <pubDate>Wed, 31 Dec 2014 10:47:24 +0330</pubDate>
+      <atom:updated>2014-12-31T11:06:40+03:30</atom:updated>
+    </item>
+    <item>
+      <guid isPermaLink="false">1E67B169778F9865E25A1E20CAFD90448415C8DB</guid>
+      <link>http://www.dotnettips.info/post/1167/%d8%b7%d8%b1%d8%a7%d8%ad%db%8c-%da%af%d8%b1%d8%af%d8%b4-%da%a9%d8%a7%d8%b1%db%8c-%d8%a8%d8%a7-%d8%a7%d8%b3%d8%aa%d9%81%d8%a7%d8%af%d9%87-%d8%a7%d8%b2-state-machines-%d9%82%d8%b3%d9%85%d8%aa-%d8%a7%d9%88%d9%84?updated=1393-10-10-10-57#comment-11354</link>
+      <author>امیران</author>
+      <title>‫پاسخ به: طراحی گردش کاری با استفاده از State machines - قسمت اول</title>
+      <description>
+        &lt;div style='text-align: right; font-family:tahoma; font-size:9pt;' dir='rtl'&gt;بررسی شروط مانند OnEntry ، OnExit، GuardFromStateToAnother هم به روش زیر مرتفع می‌شود: &lt;br&gt; &lt;div dir="ltr" align="left"&gt; &lt;pre language="CSharp" name="code"&gt;var smr = new StateMachineRequest(workflowData, startId);
+        smr.GuardClauseFromToTrigger = new StateMachineRequest.GuardClauseDelegate(this.OnFromStateToState);
+        smr.OnEntry = new StateMachineRequest.EntryExitDelegate(this.OnEntryState);
+        smr.OnExit = new StateMachineRequest.EntryExitDelegate(this.OnExitState);
+        smr.Configure();
+
+        public bool OnFromStateToState(string id)
+        {
+        // TODO check can go to next state
+        return true;
+        }
+
+        public void OnEntryState(string stateId)
+        {
+        // TODO
+        }
+
+        public void OnExitState(string stateId)
+        {
+        // TODO save data + save state + send an email ,Etc
+        }&lt;/pre&gt; &lt;/div&gt;&lt;/div&gt;
+      </description>
+      <pubDate>Wed, 31 Dec 2014 10:18:36 +0330</pubDate>
+      <atom:updated>2014-12-31T10:57:52+03:30</atom:updated>
+    </item>
+    <item>
+      <guid isPermaLink="false">437B48BCBC1B4FB7B323565504D71BC1AC1966CB</guid>
+      <link>http://www.dotnettips.info/newsarchive/details/6453?updated=1393-10-10-09-50</link>
+      <author>وحید نصیری</author>
+      <title>‫Upsource 1.0 منتشر شد</title>
+      <description>&lt;div style='text-align: left; font-family:tahoma; font-size:9pt;' dir='ltr'&gt;&lt;p&gt;Repository Browsing and Code Review&lt;span&gt;&amp;nbsp;&lt;/span&gt; &lt;/p&gt;&lt;/div&gt;</description>
+      <pubDate>Wed, 31 Dec 2014 09:50:33 +0330</pubDate>
+      <atom:updated>2014-12-31T09:50:33+03:30</atom:updated>
+    </item>
+    <item>
+      <guid isPermaLink="false">89220D6E005EF7C951C56BB181F5B9D5C6A5E503</guid>
+      <link>http://www.dotnettips.info/post/1822/%d9%86%d9%85%d8%a7%db%8c%d8%b4-%d8%aa%d8%a7%d8%b1%db%8c%d8%ae-%d8%b4%d9%85%d8%b3%db%8c-%d8%aa%d9%88%d8%b3%d8%b7-javascript-%d8%af%d8%b1-angularjs?updated=1393-10-10-09-26#comment-11353</link>
+      <author>محمد 92</author>
+      <title>‫پاسخ به: نمایش تاریخ شمسی توسط JavaScript در AngularJS</title>
+      <description>&lt;div style='text-align: right; font-family:tahoma; font-size:9pt;' dir='rtl'&gt;با سلام و ممنون از مقاله خوبتون&lt;div&gt;سوالی داشتم،&amp;nbsp;&lt;a href="https://github.com/jalaali/moment-jalaali" style="margin: 0px; padding: 0px 20px 0px 0px; border: 0px; font-stretch: inherit; vertical-align: baseline; color: rgb(3, 136, 166); text-decoration: none; -webkit-transition: color 0.3s; transition: color 0.3s; background: url(http://www.google.com/s2/favicons?domain=github.com) 100% 50% / 16px 16px no-repeat;"&gt;moment-jalaali&lt;/a&gt; &lt;span style="color: rgb(78, 68, 60); background-color: rgb(252, 252, 250);"&gt;&amp;nbsp;&lt;span&gt;&amp;nbsp;روی nuget نیست یا من نتونستم پیداش کنم&lt;/span&gt; &lt;/span&gt; &lt;br&gt; &lt;/div&gt;&lt;/div&gt;</description>
+      <pubDate>Wed, 31 Dec 2014 07:53:24 +0330</pubDate>
+      <atom:updated>2014-12-31T09:26:24+03:30</atom:updated>
+    </item>
+    <item>
+      <guid isPermaLink="false">9669F77974496222489CE962129E128A15197645</guid>
+      <link>http://www.dotnettips.info/newsarchive/details/6452?updated=1393-10-10-02-52</link>
+      <author>علی یگانه مقدم</author>
+      <title>‫سایتی برای دستیابی به انواع connection strings</title>
+      <description>&lt;div style='text-align: right; font-family:tahoma; font-size:9pt;' dir='rtl'&gt;&lt;p&gt;جای این سایت در اشتراک‌ها خالی بود ، این سایت تمامی رشته‌های اتصالی انواع دیتابیس‌ها در حالت‌های مختلف را دارا می‌باشد.&lt;/p&gt;&lt;/div&gt;</description>
+      <pubDate>Wed, 31 Dec 2014 02:52:23 +0330</pubDate>
+      <atom:updated>2014-12-31T02:52:23+03:30</atom:updated>
+    </item>
+    <item>
+      <guid isPermaLink="false">C8D56AA5C9E27FBFC82177648C3C7AD9E3A6D916</guid>
+      <link>http://www.dotnettips.info/newsarchive/details/6451?updated=1393-10-10-02-51</link>
+      <author>امیرمسعود ایرانی</author>
+      <title>‫رویدادهای delegate در جی‌کوئری</title>
+      <description>
+        &lt;div style='text-align: right; font-family:tahoma; font-size:9pt;' dir='rtl'&gt;&lt;p&gt;رویدادها یا eventهای delegate رویدادهایی هستند که به عنصرهای اصلی
+        متصل نمی‌شوند. برای مثال چنانچه یک جدول با ۱۰۰ ردیف و ۱۰ ستون داشته
+        باشیم، و بخواهیم زمان کلیک شدن روی یک سلول از این موضوع با خبر شویم، با
+        پیوست کردن رویداد click به عنصر table می‌توانیم از وقوع کلیک روی هر سلول
+        باخبر شویم.&lt;/p&gt; &lt;p&gt;علت عملکرد رویدادهای delegate این است که اغلب مرورگرها، رویدادها را
+        به صورت درختی منتشر می‌کنند. یعنی در هنگام کلیک روی یک عنصر td، عنصرهای
+        tr، tbody، table و body به ترتیب از این رویداد مطلع خواهند شد.&lt;span&gt;&amp;nbsp;&lt;/span&gt; &lt;/p&gt;&lt;/div&gt;
+      </description>
+      <pubDate>Wed, 31 Dec 2014 02:51:28 +0330</pubDate>
+      <atom:updated>2014-12-31T02:51:28+03:30</atom:updated>
+    </item>
+    <item>
+      <guid isPermaLink="false">CF615764548C4E26631AA0654109EA9D84A4AAD7</guid>
+      <link>http://www.dotnettips.info/comingsoon?updated=1393-10-10-02-48</link>
+      <author>علی یگانه مقدم</author>
+      <title>‫به زودی: آشنایی با ساختار IIS قسمت نهم</title>
+      <description>&lt;div style='text-align: right; font-family:tahoma; font-size:9pt;' dir='rtl'&gt;به زودی ...&lt;/div&gt;</description>
+      <pubDate>Wed, 31 Dec 2014 02:48:05 +0330</pubDate>
+      <atom:updated>2014-12-31T02:48:05+03:30</atom:updated>
+    </item>
+    <item>
+      <guid isPermaLink="false">93AB4389524AB02953CE1B1072932E05639B79FD</guid>
+      <link>http://www.dotnettips.info/newsarchive/details/6450?updated=1393-10-10-01-24</link>
+      <author>وحید نصیری</author>
+      <title>‫استخراج اطلاعات از Microsoft Band</title>
+      <description>&lt;div style='text-align: left; font-family:tahoma; font-size:9pt;' dir='ltr'&gt;&lt;p&gt;The main code for the app is in a file called classes.dex which is a Dalvik Executable file, basically a compiled Java binary. &lt;span&gt;&amp;nbsp;&lt;/span&gt; &lt;/p&gt;&lt;/div&gt;</description>
+      <pubDate>Wed, 31 Dec 2014 01:24:52 +0330</pubDate>
+      <atom:updated>2014-12-31T01:24:52+03:30</atom:updated>
+    </item>
+    <item>
+      <guid isPermaLink="false">600235048E52792B818C7E20365F4F33BC1DD29A</guid>
+      <link>http://www.dotnettips.info/newsarchive/details/926?updated=1393-10-10-00-25#comment-1590</link>
+      <author>علیرضا پایدار</author>
+      <title>‫پاسخ به: تبدیلگر ایران سیستم به یونیکد</title>
+      <description>
+        &lt;div style='text-align: right; font-family:tahoma; font-size:9pt;' dir='rtl'&gt;درصورتی که فیلدی شامل حروف و عدد باشه اعداد برعکس میخوره&lt;br&gt; &lt;br&gt;
+
+
+
+
+        مثلا خروجی باید:&lt;br&gt;
+
+
+
+
+        "سعید سالاری 09122222120" باشه&lt;br&gt;
+
+
+
+
+        به این شکله "سعید سالاری 02122222190"&lt;span&gt;&amp;nbsp; &lt;/span&gt;که اشتباهه.&lt;br&gt; &lt;br&gt;
+
+
+        مشکل&amp;nbsp; &lt;span&gt;به نظر از اینجاست:&lt;br&gt; &lt;/span&gt; &lt;div dir="ltr" align="left"&gt; &lt;pre language="CSharp" name="code"&gt; stringBytes = stringBytes.Reverse().ToArray();&lt;/pre&gt; &lt;/div&gt; &lt;br&gt; &lt;span&gt;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;
+      </description>
+      <pubDate>Wed, 31 Dec 2014 00:25:04 +0330</pubDate>
+      <atom:updated>2014-12-31T00:25:04+03:30</atom:updated>
+    </item>
+    <item>
+      <guid isPermaLink="false">18BA9C7B4ADD5FB4EF9B80B52AEDE47CA4C6A7D3</guid>
+      <link>http://www.dotnettips.info/courses/topic/3/def985bd-b7b5-448a-904f-e47e003e9957?updated=1393-10-10-00-20#comment-434</link>
+      <author>وحید نصیری</author>
+      <title>‫پاسخ به: تزریق خودکار وابستگی‌ها در SignalR</title>
+      <description>&lt;div style='text-align: right; font-family:tahoma; font-size:9pt;' dir='rtl'&gt;تعاریف اولیه IoC Container یکی هست. فقط این مورد خاص، سطر GlobalHost.DependencyResolver  را بیشتر دارد. &lt;/div&gt;</description>
+      <pubDate>Wed, 31 Dec 2014 00:20:14 +0330</pubDate>
+      <atom:updated>2014-12-31T00:20:14+03:30</atom:updated>
+    </item>
+    <item>
+      <guid isPermaLink="false">F534F19220EA61CBB8752AEC49D7EFC41C9F2F57</guid>
+      <link>http://www.dotnettips.info/courses/topic/3/def985bd-b7b5-448a-904f-e47e003e9957?updated=1393-10-10-00-16#comment-433</link>
+      <author>سیروان عفیفی</author>
+      <title>‫پاسخ به: تزریق خودکار وابستگی‌ها در SignalR</title>
+      <description>&lt;div style='text-align: right; font-family:tahoma; font-size:9pt;' dir='rtl'&gt;سلام،  پیاده‌سازی این قسمت باید به صورت جدا از پیاده‌سازی    DefaultControllerFactory   صورت بگیره؟ یعنی برای هر کدام وابستگی‌ها به صورت جداگانه تزریق شوند؟       private void InitStructureMap( ...&lt;/div&gt;</description>
+      <pubDate>Wed, 31 Dec 2014 00:16:19 +0330</pubDate>
+      <atom:updated>2014-12-31T00:16:19+03:30</atom:updated>
+    </item>
+    <item>
+      <guid isPermaLink="false">12D1D9458ACE1EC6124B3BCD62A565189E3D1FD0</guid>
+      <link>http://www.dotnettips.info/post/1953/%d8%a2%d8%b4%d9%86%d8%a7%db%8c%db%8c-%d8%a8%d8%a7-%d8%b3%d8%a7%d8%ae%d8%aa%d8%a7%d8%b1-iis-%d9%82%d8%b3%d9%85%d8%aa-%d9%87%d8%b4%d8%aa%d9%85?updated=1393-10-09-23-00</link>
+      <author>علی یگانه مقدم</author>
+      <title>‫آشنایی با ساختار IIS قسمت هشتم</title>
+      <description>
+        &lt;div style='text-align: right; font-family:tahoma; font-size:9pt;' dir='rtl'&gt;&lt;div style="text-align: justify;"&gt; &lt;span style="line-height: 1.5em; font-size: 9pt;"&gt;پس از بررسی مفاهیم، بهتر هست وارد یک کار عملی شویم. مثال مورد نظر، یک مثال از وب سایت شرکت مایکروسافت است که هنگام نمایش تصاویر، بر حسب پیکربندی موجود، یک پرچسب یا تگی را در گوشه‌ای از تصویر درج می‌کند. البته تصویر را ذخیره نمی‌کنیم و تگ را بر روی تصویر اصلی قرار نمی‌دهیم. تنها هنگام نمایش به کاربر، روی response خروجی آن را درج می‌کنیم.&lt;/span&gt; &lt;/div&gt; &lt;div style="text-align: justify;"&gt;قبلا ما در این&amp;nbsp;&lt;a href="http://www.dotnettips.info/post/1936/%d8%a8%d8%a7-httphandler-%d8%a8%db%8c%d8%b4%d8%aa%d8%b1-%d8%a2%d8%b4%d9%86%d8%a7-%d8%b4%d9%88%db%8c%d8%af"&gt;مقاله&amp;nbsp;&lt;/a&gt;به بررسی httpandler پرداخته‌ایم، ولی بهتر هست در این مثال کمی حالت پیشرفته‌تر آن‌را بررسی کنیم.&lt;br&gt; &lt;/div&gt; &lt;div style="text-align: justify;"&gt;ابتدا اجازه دهید کمی قابلیت‌های فایل کانفیگ IIS را گسترش دهیم. &lt;/div&gt; &lt;div style="text-align: justify;"&gt;مسیر زیر را باز کنید:&lt;/div&gt; &lt;div&gt; &lt;div dir="ltr" align="left"&gt; &lt;pre language="XML" name="code"&gt;%windir%\system32\inetsrv\config\schema&lt;/pre&gt; &lt;/div&gt; &lt;/div&gt; &lt;div style="text-align: justify;"&gt;یک فایل xml را با نام &amp;nbsp;imagecopyright.xml&amp;nbsp;ساخته&amp;nbsp;و تگ‌های زیر را داخلش قرار دهید:&lt;br&gt; &lt;/div&gt; &lt;blockquote style="margin: 0 0 0 40px; border: none; padding: 0px;"&gt; &lt;div style="text-align: justify;"&gt;احتمال زیاد دسترسی برای ویرایش این دایرکتوری به خاطر مراتب امنیتی با مشکل برخواهید خورد برای ویرایش این نکته امنیتی از&amp;nbsp;&lt;a href="http://windowsinstructed.com/failed-to-enumerate-objects-in-the-container-access-is-denied/"&gt;اینجا&lt;/a&gt;&amp;nbsp;یا به خصوص از&amp;nbsp;&lt;a href="http://windowsinstructed.com/failed-to-enumerate-objects-in-the-container-access-is-denied/"&gt;اینجا&amp;nbsp;&lt;/a&gt;&amp;nbsp;کمک بگیرید.&lt;/div&gt; &lt;div style="text-align: justify;"&gt; &lt;div dir="ltr" align="left"&gt; &lt;div dir="ltr" align="left"&gt; &lt;pre language="XML" name="code"&gt;&amp;lt;configSchema&amp;gt;
+
+        &amp;lt;sectionSchema name="system.webServer/imageCopyright"&amp;gt;
+        &amp;lt;attribute name="enabled" type="bool" defaultValue="false" /&amp;gt;
+        &amp;lt;attribute name="message" type="string" defaultValue="Your Copyright Message" /&amp;gt;
+        &amp;lt;attribute name="color" type="string" defaultValue="Red"/&amp;gt;
+        &amp;lt;/sectionSchema&amp;gt;
+        &amp;lt;/configSchema&amp;gt;&lt;/pre&gt; &lt;/div&gt; &lt;/div&gt; &lt;/div&gt; &lt;/blockquote&gt; &lt;div&gt; &lt;div dir="ltr" align="left"&gt; &lt;/div&gt; &lt;div style="text-align: justify;"&gt; &lt;span style="line-height: 1.5em; font-size: 9pt;"&gt;با این کار ما یک شِما یا اسکیما را ایجاد کردیم که دارای سه خصوصیت زیر است:&lt;/span&gt; &lt;/div&gt; &lt;/div&gt; &lt;div&gt; &lt;ul&gt; &lt;li&gt;enabled: آیا این هندلر فعال باشد یا خیر.&lt;/li&gt; &lt;li&gt;message: پیامی که باید به عنوان تگ درج شود.&lt;/li&gt; &lt;li&gt;color: رنگ متن که به طور پیش فرض قرمز رنگ است.&lt;/li&gt; &lt;/ul&gt; &lt;/div&gt; &lt;blockquote style="margin: 0 0 0 40px; border: none; padding: 0px;"&gt; &lt;div&gt; &lt;div style="text-align: justify;"&gt;به هر کدام از تگ‌های بالا یک مقدار پیش فرض داده ایم تا اگر مقداردهی نشدند، ماژول طبق مقادیر پیش فرض کار خود را انجام هد.&lt;/div&gt; &lt;/div&gt; &lt;/blockquote&gt; &lt;div&gt; &lt;div style="text-align: justify;"&gt;بعد از نوشتن شما، لازم هست که آن را در فایل applicationhost.config نیز به عنوان یک section جدید در زیر مجموعه system.webserver معرفی کنیم:&lt;/div&gt; &lt;div style="text-align: justify;"&gt; &lt;div dir="ltr" align="left"&gt; &lt;div dir="ltr" align="left"&gt; &lt;pre language="XML" name="code"&gt;&amp;lt;configSections&amp;gt;
+
+        ...
+        &amp;lt;sectionGroup name="system.webServer"&amp;gt;
+        &amp;lt;section name="imageCopyright"  overrideModeDefault="Allow"/&amp;gt;
+        ...
+        &amp;lt;/sectionGroup&amp;gt;
+        &amp;lt;/configSections&amp;gt;&lt;/pre&gt; &lt;/div&gt; &lt;/div&gt; &lt;span style="line-height: 1.5em; font-size: 9pt;"&gt;تعریف کد بالا به شما اجازه میدهد تا در زیر مجموعه تگ system.webserver، برای هندلر خود تگ تعریف کنید. در کد بالا، شمای خود را بر اساس نام فایل مشخص می‌کنیم و خصوصیت&amp;nbsp;overrideModeDefault، یک قفل گذار امنیتی برای تغییر محتواست. در صورتی که allow باشد هر کسی در هر مرحله‌ی دسترسی در سیستم و در هر فضای نامی، در فایل‌های وب کانفیگ می‌تواند به مقادیر این section دسترسی یافته و آن‌ها را تغییر دهد. ولی اگر با Deny مقدادهی شده باشد، مقادیر قفل شده و هیچ دسترسی برای تغییر آن‌ها وجود ندارد.&lt;/span&gt; &lt;/div&gt; &lt;div style="text-align: justify;"&gt;در مثال زیر ما به ماژول windows Authentication اجازه می‌دهیم که هر کاربری در هر سطح دسترسی به این section دسترسی داشته باشد؛ از تمامی سایت‌ها یا اپلیکشین‌ها یا virtual directories موجود در سیستم و در بعضی موارد این گزینه باعث افزایش ریسک امنیتی می‌گردد.&lt;/div&gt; &lt;div&gt; &lt;div dir="ltr" align="left"&gt; &lt;pre language="XML" name="code"&gt;&amp;lt;section name="windowsAuthentication" overrideModeDefault="Allow" /&amp;gt;&lt;/pre&gt; &lt;/div&gt; &lt;div style="text-align: justify;"&gt; &lt;span style="line-height: 1.5em; font-size: 9pt;"&gt;در کد زیر اینبار ما دسترسی را بستیم و در تعاریف دامنه‌های دسترسی، دسترسی را فقط برای سطح مدیریت سایت AdministratorSite باز گذاشته‌ایم:&lt;/span&gt; &lt;/div&gt; &lt;/div&gt; &lt;div style="text-align: justify;"&gt; &lt;div dir="ltr" align="left"&gt; &lt;pre language="XML" name="code"&gt; &amp;lt;location path="AdministratorSite" overrideMode="Allow"&amp;gt;
+        &amp;lt;security&amp;gt;
+        &amp;lt;authentication&amp;gt;
+        &amp;lt;providers&amp;gt;
+        &amp;lt;windowsAuthentication enabled="false"&amp;gt;
+        &amp;lt;/providers&amp;gt;
+        &amp;lt;add value="Negotiate" /&amp;gt;
+        &amp;lt;add value="NTLM" /&amp;gt;
+        &amp;lt;/location&amp;gt;
+        &amp;lt;/windowsAuthentication&amp;gt;
+        &amp;lt;/authentication&amp;gt;
+        &amp;lt;/security&amp;gt;&lt;/pre&gt; &lt;/div&gt; &lt;span style="line-height: 1.5em; font-size: 9pt;"&gt;برای خارج نشدن بیش از اندازه از بحث، به ادامه تعریف هندلر &amp;nbsp;می‌پردازیم. بعد از معرفی یک section برای&amp;nbsp;هندلر &lt;/span&gt; &lt;span style="line-height: 1.5em; font-size: 9pt;"&gt;خود، میتوانیم به راحتی تگ آن را در قسمت system.webserver تعریف کنیم. این کار می‌تواند از طریق فایل web.config سایت یا applicationhost.config صورت بگیرد یا میتواند از طریق ویرایش دستی یا خط فرمان appcmd معرفی شود؛ ولی در کل باید به صورت زیر تعریف شود:&lt;/span&gt; &lt;/div&gt; &lt;div style="text-align: justify;"&gt; &lt;div dir="ltr" align="left"&gt; &lt;pre language="XML" name="code"&gt; &amp;lt;system.webServer&amp;gt;
+        &amp;lt;imageCopyright /&amp;gt;
+        &amp;lt;/system.webServer&amp;gt;&lt;/pre&gt; &lt;/div&gt; &lt;span style="line-height: 1.5em; font-size: 9pt;"&gt;در کد بالا این تگ تنها معرفی شده است؛ ولی مقادیر آن پیش فرض می‌باشند. در صورتی که بخواهید مقادیر آن را تغییر دهید کد به شکل زیر تغییر می‌کند:&lt;/span&gt; &lt;/div&gt; &lt;div style="text-align: justify;"&gt; &lt;div dir="ltr" align="left"&gt; &lt;pre language="XML" name="code"&gt; &amp;lt;system.webServer&amp;gt;
+        &amp;lt;imageCopyright enabled="true" message="an example of www.dotnettips.info" color="Blue" /&amp;gt;
+        &amp;lt;/system.webServer&amp;gt;&lt;/pre&gt; &lt;/div&gt; &lt;span style="line-height: 1.5em; font-size: 9pt;"&gt;در صورتی که میخواهید از خط فرمان کمک بگیرید به این شکل بنویسید:&lt;/span&gt; &lt;/div&gt; &lt;div&gt; &lt;div dir="ltr" align="left"&gt; &lt;pre language="CSharp" name="code"&gt;%windir%\system32\inetsrv\appcmd set config -section:system.webServer/imageCopyright /color:yellow /message:"Dotnettips.info" /enabled:true&lt;/pre&gt; &lt;/div&gt; &lt;div style="text-align: justify;"&gt; &lt;span style="line-height: 1.5em; font-size: 9pt;"&gt;برای اطمینان از این که دستور شما اجرا شده است یا خیر، یک کوئری یا لیست از تگ مورد نظر در system.webserver بگیرید:&lt;/span&gt; &lt;/div&gt; &lt;/div&gt; &lt;div&gt; &lt;div dir="ltr" align="left"&gt; &lt;pre language="CSharp" name="code"&gt;%windir%\system32\inetsrv\appcmd list config -section:system.webServer/imageCopyright&lt;/pre&gt; &lt;/div&gt; &lt;div style="text-align: justify;"&gt; &lt;span style="line-height: 1.5em; font-size: 9pt;"&gt;در این مرحله یک دایرکتوری برای پروژه تصاویر ایجاد کنید و در این مثال ما فقط تصاویر jpg را ذخیره می‌کنیم و در هنگام درج تگ، تصاویر jpg را هندل می‌کنیم؛ برای مثال ما:&lt;/span&gt; &lt;/div&gt; &lt;/div&gt; &lt;div&gt; &lt;div dir="ltr" align="left"&gt; &lt;pre language="XML" name="code"&gt;c:\inetpub\mypictures&lt;/pre&gt; &lt;/div&gt; &lt;div style="text-align: justify;"&gt;در این مرحله دایرکتوری ایجاد شده را به عنوان یک application معرفی می‌کنیم:&lt;/div&gt; &lt;div&gt; &lt;div dir="ltr" align="left"&gt; &lt;pre language="CSharp" name="code"&gt;%windir%\system32\inetsrv\appcmd add app -site.name:"Default Web Site" -path:/mypictures -physicalPath:%systemdrive%\inetpub\mypictures&lt;/pre&gt; &lt;/div&gt; &lt;div style="text-align: justify;"&gt; &lt;span style="line-height: 1.5em; font-size: 9pt;"&gt;و برای آن ماژول DirectoryBrowse را فعال می‌کنیم. برای اطلاعات بیشتر به&lt;/span&gt; &lt;a href="http://www.dotnettips.info/post/1952/%d8%a2%d8%b4%d9%86%d8%a7%db%8c%db%8c-%d8%a8%d8%a7-%d8%b3%d8%a7%d8%ae%d8%aa%d8%a7%d8%b1-iis-%d9%82%d8%b3%d9%85%d8%aa-%d9%87%d9%81%d8%aa%d9%85" style="line-height: 1.5em; font-size: 9pt;"&gt;مقاله قبلی&lt;/a&gt; &lt;span style="line-height: 1.5em; font-size: 9pt;"&gt; که به تشریح وظایف ماژول‌ها پرداختیم رجوع کنید. فقط به این نکته اشاره کنم که اگر کاربر آدرس localhost/mypictures را درخواست کند، فایل‌های این قسمت را برای ما لیست می‌کند. برای فعال سازی، کد زیر را فعال می‌کنیم:&lt;/span&gt; &lt;/div&gt; &lt;/div&gt; &lt;div&gt; &lt;div dir="ltr" align="left"&gt; &lt;pre language="CSharp" name="code"&gt;%windir%\system32\inetsrv\appcmd set config "Default Web Site/mypictures"  -section:directoryBrowse -enabled:true&lt;/pre&gt; &lt;/div&gt; &lt;/div&gt; &lt;div style="text-align: justify;"&gt; &lt;span style="line-height: 1.5em; font-size: 9pt;"&gt;حال زمان این رسیده است تا کد نوشته و فایل cs آن را در مسیر زیر ذخیره کنیم:&lt;/span&gt; &lt;/div&gt; &lt;/div&gt; &lt;div&gt; &lt;div dir="ltr" align="left"&gt; &lt;pre language="XML" name="code"&gt;c:\inetpub\mypictures\App_Code\imagecopyrighthandler.cs&lt;/pre&gt; &lt;/div&gt; &lt;div style="text-align: justify;"&gt; &lt;span style="line-height: 1.5em; font-size: 9pt;"&gt;هندل مورد نظر در زبان سی شارپ :&lt;/span&gt; &lt;/div&gt; &lt;/div&gt; &lt;div style="text-align: justify;"&gt; &lt;div dir="ltr" align="left"&gt; &lt;div dir="ltr" align="left"&gt; &lt;pre language="CSharp" name="code"&gt;#region Using directives
+        using System;
+        using System.Web;
+        using System.Drawing;
+        using System.Drawing.Imaging;
+        using Microsoft.Web.Administration;
+        #endregion
+
+        namespace IIS7Demos
+        {
+        public class imageCopyrightHandler : IHttpHandler
+        {
+        public void ProcessRequest(HttpContext context)
+        {
+        ConfigurationSection imageCopyrightHandlerSection =
+        WebConfigurationManager.GetSection("system.webServer/imageCopyright");
+
+        HandleImage(    context,
+        (bool)imageCopyrightHandlerSection.Attributes["enabled"].Value,
+        (string)imageCopyrightHandlerSection.Attributes["message"].Value,
+        (string)imageCopyrightHandlerSection.Attributes["color"].Value
+        );
+        }
+
+        void HandleImage(   HttpContext context,
+        bool enabled,
+        string copyrightText,
+        string color
+        )
+        {
+        try
+        {
+        string strPath = context.Request.PhysicalPath;
+        if (enabled)
+        {
+        Bitmap bitmap = new Bitmap(strPath);
+        // add copyright message
+        Graphics g = Graphics.FromImage(bitmap);
+        Font f = new Font("Arial", 50, GraphicsUnit.Pixel);
+        SolidBrush sb = new SolidBrush(Color.FromName(color));
+        g.DrawString(   copyrightText,
+        f,
+        sb,
+        5,
+        bitmap.Height - f.Height - 5
+        );
+        f.Dispose();
+        g.Dispose();
+        // slow, but good looking resize for large images
+        context.Response.ContentType = "image/jpeg";
+        bitmap.Save(
+        context.Response.OutputStream,
+        System.Drawing.Imaging.ImageFormat.Jpeg
+        );
+        bitmap.Dispose();
+        }
+        else
+        {
+        context.Response.WriteFile(strPath);
+        }
+        }
+        catch (Exception e)
+        {
+        context.Response.Write(e.Message);
+        }
+        }
+
+        public bool IsReusable
+        {
+        get { return true; }
+        }
+        }
+        }&lt;/pre&gt; &lt;/div&gt; &lt;/div&gt; &lt;span style="line-height: 1.5em; font-size: 9pt;"&gt;در خط WebConfigurationManager.GetSection، در صورتیکه تگ imagecopyright تعریف شده باشد، همه اطلاعات این تگ را از فایل کانفیگ بیرون کشیده و داخل شیء imageCopyrightHandlerSection از نوع ConfigurationSection قرار می‌دهیم. سپس اطلاعات هر سه گزینه را خوانده و به همراه context (اطلاعات درخواست) به تابع handleimage که ما آن را نوشته ایم ارسال می‌کنیم. کار این تابع درج تگ می‌باشد.&lt;/span&gt; &lt;/div&gt; &lt;div style="text-align: justify;"&gt;در خطوط اولیه تابع، ما آدرس فیزیکی منبع درخواست شده را به دست آورده و در صورتیکه مقدار گزینه enable با true مقدار دهی شده باشد، آن را به شی bitmap نسبت می‌دهیم و با استفاده از دیگر کلاس‌های گرافیکی، تگ مورد نظر را با متن و رنگ مشخص شده ایجاد می‌کنیم. در نهایت شیء bitmap را ذخیره و نوع خروجی response را از نوع&amp;nbsp;image/jpeg&amp;nbsp;تعریف می‌کنیم تا مرورگر بداند که خروجی ما یک تصویر است. ولی در صورتی که enabled با false مقداردهی شده باشد، همان تصویر اصلی را بدون درج تگ ارسال می‌کنیم. &lt;/div&gt; &lt;div style="text-align: justify;"&gt;فضای نام&amp;nbsp;Microsoft.Web.Administration&amp;nbsp;برای اجرای خود نیاز دارد تا اسمبلی آن رفرنس شود. برای اینکار به درون دایرکتوری mypictures رفته و در داخل فایل web.config که بعد از تبدیل این دایرکتوری به اپلیکیشن ایجاد شده بنویسید:&lt;/div&gt; &lt;div style="text-align: justify;"&gt; &lt;div dir="ltr" align="left"&gt; &lt;pre language="XML" name="code"&gt; &amp;lt;system.web&amp;gt;
+        &amp;lt;compilation&amp;gt;
+        &amp;lt;assemblies&amp;gt;
+        &amp;lt;add assembly="Microsoft.Web.Administration, Version=7.0.0.0,
+        Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL"/&amp;gt;
+        &amp;lt;/assemblies&amp;gt;
+        &amp;lt;/compilation&amp;gt;
+        &amp;lt;/system.web&amp;gt;&lt;/pre&gt; &lt;/div&gt; &lt;span style="line-height: 1.5em; font-size: 9pt;"&gt;در صورتی که کلاس خود را کامپایل کنید می‌توانید آن را داخل پوشه‌ی Bin به جای App_Code قرار دهید و نیاز به رفرنس کرده اسمبلی&amp;nbsp;Microsoft.Web.Administration&amp;nbsp;نیز ندارید.&lt;/span&gt; &lt;/div&gt; &lt;div style="text-align: justify;"&gt;در آخرین مرحله فقط باید به IIS بگویید که تنها فایل‌های jpg را برای این هندلر، هندل کن. این کار را از طریق خط فرمان نجام می‌دهیم:&lt;/div&gt; &lt;div&gt; &lt;div dir="ltr" align="left"&gt; &lt;pre language="CSharp" name="code"&gt;appcmd set config "Default Web Site/mypictures/" -section:handlers  /+[name='JPGimageCopyrightHandler',path='*.jpg',verb='GET',type='IIS7Demos.imageCopyrightHandler']&lt;/pre&gt; &lt;/div&gt; &lt;div style="text-align: justify;"&gt; &lt;span style="line-height: 1.5em; font-size: 9pt;"&gt;هندلر مورد نظر تنها برای این اپلیکیشن و در مسیر mypicture فعال شده و در قسمت name، یک نام اختیاری بدون فاصله و unique بر می‌گزینیم. در قسمت path نوع فایل‌هایی را که نیاز به هندل هست، مشخص کردیم و در قسمت verb گفته‌ایم که تنها برای درخواست‌های نوع GET، هندلر را اجرا کن و در قسمت type هم که اگر&amp;nbsp;&lt;/span&gt; &lt;a href="http://www.dotnettips.info/post/1936/%d8%a8%d8%a7-httphandler-%d8%a8%db%8c%d8%b4%d8%aa%d8%b1-%d8%a2%d8%b4%d9%86%d8%a7-%d8%b4%d9%88%db%8c%d8%af" style="line-height: 1.5em; font-size: 9pt;"&gt;مقاله httphandler&lt;/a&gt; &lt;span style="line-height: 1.5em; font-size: 9pt;"&gt; را خوانده باشید می‌دانید که به معرفی هندلر می‌پردازیم؛ اولی نام فضای نام هست و بعد از . نام کلاس، که در اینجا می‌شود :&amp;nbsp;&lt;/span&gt; &lt;/div&gt; &lt;/div&gt; &lt;div style="text-align: left;"&gt;'IIS7Demos.imageCopyrightHandler&amp;nbsp; &lt;br&gt; &lt;/div&gt; &lt;div style="text-align: justify;"&gt; الان همه چیز برای اجرا آماده است و فقط یک مورد برای احتیاط الزامی است و آن هم این است که پروسه‌های کارگر، ممکن است از قبل در حال اجرا بوده باشند و هنوز شمای جدید ما را شناسایی نکرده باشند، برای همین باید آن‌ها را با تنظیمات جدیدمان آشنا کنیم تا احیانا برایمان استثناء صادر نشود: &lt;/div&gt; &lt;div style="text-align: right;"&gt; &lt;div dir="ltr" align="left"&gt; &lt;pre language="CSharp" name="code"&gt;appcmd recycle AppPool DefaultAppPool&lt;/pre&gt; &lt;/div&gt; &lt;div style="text-align: justify;"&gt; &lt;span style="line-height: 1.5em; font-size: 9pt;"&gt;کارمان تمام شده ، چند تصویر داخل دایرکتوری قرار داده و درخواست &amp;nbsp;تصاویر موجود را بدهید تا تگ را ببینید:&lt;/span&gt; &lt;/div&gt; &lt;div style="text-align: justify;"&gt; &lt;p&gt; &lt;img style="display: block; margin-left: auto; margin-right: auto; cursor: default;" src="http://www.dotnettips.info/file/image?name=ihandler.jpg"&gt; &lt;/p&gt; &lt;/div&gt; &lt;div style="text-align: justify;"&gt; &lt;span style="font-size: 9pt; line-height: 1.5em; text-align: right;"&gt;فعلا تا بدین جا کافی است. در قسمت آینده این هندلر را کمی بیشتر توسعه خواهیم داد.&lt;/span&gt; &lt;/div&gt; &lt;/div&gt; &lt;/div&gt;&lt;/div&gt;
+      </description>
+      <pubDate>Tue, 30 Dec 2014 23:00:02 +0330</pubDate>
+      <atom:updated>2014-12-30T23:00:02+03:30</atom:updated>
+    </item>
+    <item>
+      <guid isPermaLink="false">16187FFF30290EFC7E60F1861C9FE7153D60241D</guid>
+      <link>http://www.dotnettips.info/post/1827/%d9%81%d8%b9%d8%a7%d9%84-%d8%b3%d8%a7%d8%b2%db%8c-%d9%88-%d9%be%d8%b1%d8%af%d8%a7%d8%b2%d8%b4-%d8%b5%d9%81%d8%ad%d8%a7%d8%aa-%d9%be%d9%88%db%8c%d8%a7%db%8c-%d8%a7%d9%81%d8%b2%d9%88%d8%af%d9%86-%d9%88%db%8c%d8%b1%d8%a7%db%8c%d8%b4-%d9%88-%d8%ad%d8%b0%d9%81-%d8%b1%da%a9%d9%88%d8%b1%d8%af%d9%87%d8%a7%db%8c-jqgrid-%d8%af%d8%b1-asp-net-mvc?updated=1393-10-09-22-13#comment-11352</link>
+      <author>وحید نصیری</author>
+      <title>‫پاسخ به: فعال سازی و پردازش صفحات پویای افزودن، ویرایش و حذف رکوردهای jqGrid در ASP.NET MVC</title>
+      <description>&lt;div style='text-align: right; font-family:tahoma; font-size:9pt;' dir='rtl'&gt;&lt;a href="https://github.com/VahidN/jqGrid-Samples/tree/master/jqGrid04/jqGrid04"&gt;مثال به روز شده&lt;/a&gt; را اجرا کردید؟ شماره Id اولین ردیف را به عمد اینبار &lt;a href="https://github.com/VahidN/jqGrid-Samples/blob/master/jqGrid04/jqGrid04/Models/ProductDataSource.cs"&gt;از 100&lt;/a&gt;  تنظیم کردم (تا با شماره ردیف اشتباه نشود) و این حاصل کلیک بر روی دکمه‌ی حذف اولین ردیف است؛ بدون نیاز به کد اضافه‌تری (در این مثال، حذف ردیف شماره یک، عدد id مساوی 100 را به سرور ارسال کرده):&lt;br&gt; &lt;br&gt; &lt;p&gt; &lt;img style="display: block; margin-left: auto; margin-right: auto; cursor: default;" src="http://www.dotnettips.info/file/image?name=jq01.png"&gt; &lt;/p&gt;&lt;/div&gt;</description>
+      <pubDate>Tue, 30 Dec 2014 22:03:05 +0330</pubDate>
+      <atom:updated>2014-12-30T22:13:49+03:30</atom:updated>
+    </item>
+    <item>
+      <guid isPermaLink="false">C438EDA564652B3735F5720E9D18A53A48974741</guid>
+      <link>http://www.dotnettips.info/post/1827/%d9%81%d8%b9%d8%a7%d9%84-%d8%b3%d8%a7%d8%b2%db%8c-%d9%88-%d9%be%d8%b1%d8%af%d8%a7%d8%b2%d8%b4-%d8%b5%d9%81%d8%ad%d8%a7%d8%aa-%d9%be%d9%88%db%8c%d8%a7%db%8c-%d8%a7%d9%81%d8%b2%d9%88%d8%af%d9%86-%d9%88%db%8c%d8%b1%d8%a7%db%8c%d8%b4-%d9%88-%d8%ad%d8%b0%d9%81-%d8%b1%da%a9%d9%88%d8%b1%d8%af%d9%87%d8%a7%db%8c-jqgrid-%d8%af%d8%b1-asp-net-mvc?updated=1393-10-09-22-01#comment-11351</link>
+      <author>امیر نوروزیان</author>
+      <title>‫پاسخ به: فعال سازی و پردازش صفحات پویای افزودن، ویرایش و حذف رکوردهای jqGrid در ASP.NET MVC</title>
+      <description>
+        &lt;div style='text-align: right; font-family:tahoma; font-size:9pt;' dir='rtl'&gt;ممنون. ولی تو تعریف کدهای شما، ردیف رو به عنوان ایدی به تابع حذف می‌فرسته و با این تابع میشه نوع داده ارسالی رو مشخص کرد&lt;br&gt; &lt;div dir="ltr" align="left"&gt; &lt;pre language="CSharp" name="code"&gt;   onClickButton: function (e) {
+        var id = $('#grid').jqGrid('getGridParam', 'selrow');
+
+        if (id != null) {
+        var idHtml = $('#grid').jqGrid('getCell', id, 'ID_Baker');
+        //var idHtml = id.ID_Baker;
+        //var idHtml = $('#' + id).children().first().html();
+        $.ajax({
+        url: '@(Url.Action("DeleteProfile"))' + '?Id=' + idHtml + '&amp;amp;RowId=' + id,
+        success: function (data) {
+        if (data.Success) {
+
+        $('#grid').jqGrid('delRowData', data.RowId);
+        }
+        }
+        });
+        }
+        else {
+        }
+        },&lt;/pre&gt; &lt;/div&gt;&lt;/div&gt;
+      </description>
+      <pubDate>Tue, 30 Dec 2014 21:18:03 +0330</pubDate>
+      <atom:updated>2014-12-30T22:01:53+03:30</atom:updated>
+    </item>
+    <item>
+      <guid isPermaLink="false">7D59A8BF820A2232AA779DD6A1CA52F432DBE5DD</guid>
+      <link>http://www.dotnettips.info/courses/topic/4/6223df9c-4c0f-4036-bb04-ba4dfe3774dc?updated=1393-10-09-19-05#comment-432</link>
+      <author>وحید نصیری</author>
+      <title>‫پاسخ به: آشنایی با AOP IL Weaving</title>
+      <description>&lt;div style='text-align: left; font-family:tahoma; font-size:9pt;' dir='ltr'&gt;« Importing Dependencies from the Target Object »&lt;/div&gt;</description>
+      <pubDate>Tue, 30 Dec 2014 19:05:47 +0330</pubDate>
+      <atom:updated>2014-12-30T19:05:47+03:30</atom:updated>
+    </item>
+    <item>
+      <guid isPermaLink="false">8C47455AAD80CAFB377D8A70649863F8DB0D5AA6</guid>
+      <link>http://www.dotnettips.info/courses/topic/4/6223df9c-4c0f-4036-bb04-ba4dfe3774dc?updated=1393-10-09-18-27#comment-431</link>
+      <author>ایلیا اکبری فرد</author>
+      <title>‫پاسخ به: آشنایی با AOP IL Weaving</title>
+      <description>&lt;div style='text-align: right; font-family:tahoma; font-size:9pt;' dir='rtl'&gt;با سلام. چگونه می‌توان به IUnitOfWork درون Aspect‌های تعریف شده بوسیله PostSharp ،دسترسی یافت؟    (تمامی Aspectها درون Dll دیگر قرار دارند). &lt;/div&gt;</description>
+      <pubDate>Tue, 30 Dec 2014 18:27:12 +0330</pubDate>
+      <atom:updated>2014-12-30T18:27:12+03:30</atom:updated>
+    </item>
+    <item>
+      <guid isPermaLink="false">46F0C1873FE1DE359C8F01D13C7221F172AFAEC2</guid>
+      <link>http://www.dotnettips.info/post/1909/%d9%81%d8%b1%d9%85%d8%aa-%da%a9%d8%b1%d8%af%d9%86-%d8%a7%d8%b7%d9%84%d8%a7%d8%b9%d8%a7%d8%aa-%d9%86%d9%85%d8%a7%db%8c%d8%b4-%d8%af%d8%a7%d8%af%d9%87-%d8%b4%d8%af%d9%87-%d8%a8%d9%87-%da%a9%d9%85%da%a9-kendo-ui-grid?updated=1393-10-09-17-30#comment-11350</link>
+      <author>وحید محمّدطاهری</author>
+      <title>‫پاسخ به: فرمت کردن اطلاعات نمایش داده شده به کمک Kendo UI Grid</title>
+      <description>
+        &lt;div style='text-align: right; font-family:tahoma; font-size:9pt;' dir='rtl'&gt;با سلام و خدا قوت&lt;br&gt; &lt;br&gt;
+        وقتی تو تنظیمات دیتاسورس serverGrouping:true تنظیم می‌کنم با خطای e.slice مواجه میشم.&lt;br&gt;
+        تو مثالی که شما قراردادید هم اینو وقتی تنظیم کردم باز همین مشکل بوجود اومد.&lt;br&gt; &lt;br&gt;
+        ممنون میشم راهنماییم کنید.&lt;/div&gt;
+      </description>
+      <pubDate>Tue, 30 Dec 2014 17:30:39 +0330</pubDate>
+      <atom:updated>2014-12-30T17:30:39+03:30</atom:updated>
+    </item>
+  </channel>
+</rss>

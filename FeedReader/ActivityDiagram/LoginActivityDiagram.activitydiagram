@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<activityRootModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/SimpleShapesModel" dslVersion="1.0.0.0" Id="d091ca26-23cc-46ed-b5a6-73adecc0b664" name="LoginActivityDiagram" linkedPackageId="74c819a3-9055-459d-8f51-b2b632fdf5cd" xmlns="http://schemas.microsoft.com/VisualStudio/TeamArchitect/ActivityDesigner">
+  <profileInstances>
+    <packageHasProfileInstances Id="8228e901-cae7-4228-9ff5-b8cd7b90621d">
+      <profileInstance Id="af6f5b1a-b6a7-49d3-9185-f05866431016" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="6783213a-b98a-434c-aa82-fd8e96901bea">
+      <profileInstance Id="f72abf6c-5a28-4163-a0d0-2113101a71b7" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="54b3a2d7-ed5e-4c77-9249-3a48b17ea236">
+      <profileInstance Id="b6e49da0-be60-4227-8b2b-8d04e7348aac" name="CSharpProfile">
+        <elementDefinition Id="75b4a769-3332-4695-8768-d9b0c236725e" />
+      </profileInstance>
+      <elementDefinition Id="4e8aa140-4a1b-4921-b52e-e3c1a60363ab" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <activityRootModelHasActivity>
+      <activity Id="78d67008-7e74-430d-81b3-2065fc06ea75" name="LoginActivityDiagram" isAbstract="false" isLeaf="false" isActiveClass="false" isReentrant="false" isReadOnly="false" isSingleExecution="false">
+        <elementDefinition Id="b6abbf28-4d4f-4f5d-b639-cf04f46684df" />
+        <nodes>
+          <initialNode Id="e942e1bb-7e8b-42f8-89ae-1e6201d9a623" name="Initial1" isLeaf="false">
+            <elementDefinition Id="9794a125-6df8-4447-b350-f24ae00ea5a5" />
+            <flowNodeTargets>
+              <controlFlow Id="48c8eceb-68e0-47c0-a9a4-ed09622a76d0" isLeaf="false">
+                <opaqueActionMoniker Id="fa21ada5-b7ee-4ade-af6b-699ddf962d35" LastKnownName="کاربر فرم ورود را در خواست می دهد" />
+                <elementDefinition Id="19f8cb71-b27f-4ec7-be57-4685185ba9b1" />
+              </controlFlow>
+            </flowNodeTargets>
+          </initialNode>
+          <opaqueAction Id="fa21ada5-b7ee-4ade-af6b-699ddf962d35" name="کاربر فرم ورود را در خواست می دهد" isLeaf="false">
+            <elementDefinition Id="1d0ce9f4-a415-4942-963c-fc9ab16dec20" />
+            <flowNodeTargets>
+              <controlFlow Id="a97f1cb9-aa99-4566-aa43-a48df1979a2c" isLeaf="false">
+                <opaqueActionMoniker Id="9cf2ff07-ebd1-41ce-bee1-3cd037db548c" LastKnownName="سیستم فرم را نمایش میدهد" />
+                <elementDefinition Id="734a3ba9-bb43-4b3f-b078-1c4509580dda" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction Id="315bff66-cc1a-441e-a59c-3dfe9021b742" name="کاربر اطلاعات کاربری خود را وارد می کند" isLeaf="false">
+            <elementDefinition Id="93e0b480-d3bf-4d52-848b-5151ae3637e1" />
+            <flowNodeTargets>
+              <controlFlow Id="d5d47bbc-f22c-4098-93e7-5e194807ea53" isLeaf="false">
+                <opaqueActionMoniker Id="7263624f-95d1-4c5f-8d4d-a027e213da06" LastKnownName="سیستم صحت اطلاعات کاربر را بررسی می کند" />
+                <elementDefinition Id="81a66884-5c17-4861-ac42-f49f2c9aef0f" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction Id="9cf2ff07-ebd1-41ce-bee1-3cd037db548c" name="سیستم فرم را نمایش میدهد" isLeaf="false">
+            <elementDefinition Id="93b83a25-467c-483e-ba00-a7da8ba13389" />
+            <flowNodeTargets>
+              <controlFlow Id="d118dcab-c694-4f35-ab42-e2c63ad7ff4c" isLeaf="false">
+                <opaqueActionMoniker Id="315bff66-cc1a-441e-a59c-3dfe9021b742" LastKnownName="کاربر اطلاعات کاربری خود را وارد می کند" />
+                <elementDefinition Id="4b6c0b65-aaa7-4dca-a327-a9452442a202" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction Id="7263624f-95d1-4c5f-8d4d-a027e213da06" name="سیستم صحت اطلاعات کاربر را بررسی می کند" isLeaf="false">
+            <elementDefinition Id="4b68d004-c04f-4072-8176-b92fafee1099" />
+            <flowNodeTargets>
+              <controlFlow Id="80d962b7-4674-4024-a279-90ade8db6406" isLeaf="false">
+                <opaqueActionMoniker Id="85099bc8-44ba-4212-994e-b9c667f318fb" LastKnownName="اجازه دسترسی به کاربر داده می شود" />
+                <elementDefinition Id="c8ec4fdf-9465-4b01-9a1d-c3b17c4c9e0c" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction Id="85099bc8-44ba-4212-994e-b9c667f318fb" name="اجازه دسترسی به کاربر داده می شود" isLeaf="false">
+            <elementDefinition Id="1f4dbb20-36f3-4c43-8087-75ff53eda35f" />
+            <flowNodeTargets>
+              <controlFlow Id="34f72ed9-3b20-40fe-8fa7-46ac40f5ad32" isLeaf="false">
+                <opaqueActionMoniker Id="2efe956f-ea1e-4806-8687-33c55d174819" LastKnownName="کاربر به صفحه اصلی منتقل می شود" />
+                <elementDefinition Id="b8a572e4-a467-4755-afd9-1a93f66cd589" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction Id="2efe956f-ea1e-4806-8687-33c55d174819" name="کاربر به صفحه اصلی منتقل می شود" isLeaf="false">
+            <elementDefinition Id="266556a8-d121-4c77-8ead-6502f20afbfb" />
+            <flowNodeTargets>
+              <controlFlow Id="ae344fb1-33c2-4c7e-af32-f75ecf5ff3bb" isLeaf="false">
+                <activityFinalNodeMoniker Id="04be0ab0-aa02-4747-99ba-fbfcd137c9ee" LastKnownName="ActivityFinal1" />
+                <elementDefinition Id="dc5b6981-7ce9-43c1-9866-352d774a7d74" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <activityFinalNode Id="04be0ab0-aa02-4747-99ba-fbfcd137c9ee" name="ActivityFinal1" isLeaf="false">
+            <elementDefinition Id="b99b7bdc-97b2-47dd-818f-a16be07662ce" />
+          </activityFinalNode>
+        </nodes>
+      </activity>
+    </activityRootModelHasActivity>
+  </packagedElements>
+  <package Id="74c819a3-9055-459d-8f51-b2b632fdf5cd" name="FeedReader">
+    <elementDefinition Id="53a40116-cfad-4337-9abb-53b36ed80249" />
+  </package>
+</activityRootModel>
